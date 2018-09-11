@@ -1,0 +1,80 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1 '微软雅黑',Helvetica,Arial,"\5b8b\4f53",sans-serif}
+h1{font-size:20px; font-weight:normal;}
+h2{font-size:16px; font-weight:normal;}
+h3{font-size:14px; font-weight:normal;}
+h4,h5,h6{font-size:100%; font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}
+q:before,q:after{content:''}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%; outline:none; border:none;}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:0;height:1px}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{zoom:1;}
+.clearfix:after{content:""; display:block; height:0; line-height:0; clear:both; visibility:hidden;}
+.hide{display:none;}
+
+.hover{position: fixed; right:0;top:50%; margin-top:-100px; _position: absolute; _top: expression(eval(document.documentElement.scrollTop) + 380 + "PX");z-index: 100;}
+.hover .title{display:block; width:38px; height:128px; background:url(../../images/v1.0/web02/hover1.png) 0 0 no-repeat; text-indent:-9999px;}
+.hover .title:hover{background:url(../../images/v1.0/web02/hover11.png) 0 0 no-repeat;;}
+.hover .cont{display:none; width:125px; border:1px solid #5C677E; line-height:28px; font-size:12px; background:#fff; color:#333;}
+.cont .t{ padding-left:10px; line-height:30px; border-bottom:4px solid #269ED8; background:#333; color:#fff; font-size:14px;}
+.cont .t .fr{ width:30px; height:30px; background:url(../../images/v1.0/web02/hover2.png) center center no-repeat; text-indent:-9999px;}
+.cont p{ text-align:center;}
+.hover .c{color:#f50; margin-top:5px;}
+.cont .line{border-bottom:1px dashed #EEE;}
+.cont .r1{display:block; margin:10px auto;}
+
+body{background:#EEF1F6;}
+.header{width: 100%; height:90px; background:#fff; border-bottom:1px solid #D2D2D2;}
+.header-inner, .info-pane .inner{width:1100px; margin:0 auto;}
+.logo{ margin-left: 20px; margin-top:25px; margin-right:205px;}
+a.try-btn{display:block; width:125px; height:35px; line-height:35px; margin-top:28px; background:#269FD8; border-radius:2px; color:#fff; text-align:center; font-size:14px;}
+a.try-btn:hover{background:#228EC2;}
+.nav{font-size:16px; background:url(../../images/v1.0/web02/nav_bg.png) 100px 37px no-repeat;}
+.nav li{float:left; width:112px; line-height:40px; margin:22px 2px 0 0; color:#666; border-top:4px solid #fff; text-align:center;}
+.nav li a{color:#666;}
+.nav li a:hover, .nav li a.on{color:#269ed8;}
+.nav li.drop{text-align:left; position:relative;}
+.nav li.drop .drop-title{display:block; padding-left:21px; background:url(../../images/v1.0/web02/t2.png) right center no-repeat;}
+.nav li.drop .drop-title:hover{color:#fff;}
+.nav li.drop-on{border-top:4px solid #269ED8;}
+.nav li.drop-on .drop-title{background:#333 url(../../images/v1.0/web02/t1.png) right center no-repeat; color:#fff;}
+.nav li.drop .drop-down{display:none; position:absolute; left:0; top:40px; width:112px;}
+.nav li.drop-on .drop-down{display:block; padding:5px 0; background:#333;}
+.nav li.drop-on .drop-down a{display:block; text-align:center; line-height:28px; color:#fff; font-size:12px;}
+.nav li.drop-on .drop-down a:hover, .nav li.drop-on .drop-down a.on{color:#269ed8;}
+
+html{height:100%;}
+body{height:100%;}
+.header-inner .logo{
+    width: 150px;
+    height: 50px;
+}
+.header-inner .logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer{padding:55px 0 37px; height:160px; line-height:30px; color:#b2b2b2; font-size:14px; background:#262626; z-index:1;}
+
+.footer a{color:#b2b2b2;}
+.footer h2{color:#fff; font-size:16px; font-weight:normal; line-height:40px;}
+.footer h2 img{margin-left:12px; vertical-align:middle;}
+.footer h2 .ewm1{margin-left:20px; cursor:pointer;}
+.footer h2 .ewm-img{display:none; cursor:pointer; position:absolute; top:-170px; left:-2px;}
+.footer ul.fl{margin-left:250px;}
+.footer ul.fr{margin-right:250px;}
+.footer-inner .company-name{ margin-top: 30px;text-align: center;}
+
+.tel{padding-left:30px; background:url(../../images/v1.0/web02/tel.png) left center no-repeat;}
+.adr{padding-left:30px; background:url(../../images/v1.0/web02/adr.png) left center no-repeat;}
+

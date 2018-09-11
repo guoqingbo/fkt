@@ -1,0 +1,485 @@
+
+.clearfix:before, .clearfix:after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*�ҵĿͻ�--�������*/
+
+.mymer_content {
+    width: 958px;
+    border: 1px solid #e6e6e6;
+    background: #fcfcfc;
+    margin: 12px auto 0 auto;
+}
+
+.mymer_head {
+    background: #fcfcfc;
+    border-bottom: 1px solid #ededed;
+    padding: 24px 0;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.mymer_head_detail {
+    color: #929292;
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    background: url(../../images/v1.0/cop/head_grey.png) no-repeat center 0;
+}
+
+.mymer_head_detail_blue {
+    color: #2682e0;
+    width: 120px;
+    height: 117px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    background: url(../../images/v1.0/cop/head_blue.png) no-repeat center 0;
+}
+
+.mymer_head_detail1 {
+    padding-top: 68px;
+    display: block;
+}
+
+.mymer_head_detail2 {
+    padding-top: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.mymer_head_detail a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+}
+
+.mymer_head_detail a.addr_on {
+    color: #227ac6;
+    text-decoration: none;
+}
+
+.mymer_no_line {
+    border-right: none;
+}
+
+.mymer_head_detail_r {
+    color: #666666;
+    font-size: 12px;
+    padding-left: 62px;
+
+}
+
+.mymer_head_detail_r a {
+    width: 105px;
+    color: #fff;
+    display: block;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background: url(../../images/v1.0/sunmit_btn.gif) no-repeat 0 0;
+}
+
+.mymer_head_detail_r a:hover {
+    background-position: -120px 0;
+}
+
+.mymer_search {
+    padding: 0 0 32px 13px;
+}
+
+.mymer_search_input1 {
+    width: 464px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 12px;
+    border: 1px solid #d0d0d0;
+    color: #b7b7b7;
+    font-size: 14px;
+}
+
+.mymer_search_input2 {
+    background: url(../../images/v1.0/cop/btns_blue.png) no-repeat 0 0;
+    width: 105px;
+    height: 34px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    margin-left: 14px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    cursor: pointer;
+}
+
+.mymer_search_input2:hover {
+    background: url(../../images/v1.0/cop/btns_blue_hover.png) no-repeat 0 0;
+}
+
+.mymer_section_tit {
+    border-left: 6px solid #227ac6;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: "microsoft yahei";
+    color: #2682e0;
+    margin: 0 0 12px 16px;
+}
+
+.mymer_section_box {
+    margin: 16px;
+    background: #fff;
+    padding: 21px 12px 21px 37px;
+    line-height: 30px;
+}
+
+.mymer_section_name {
+    width: 92px;
+    font-size: 12px;
+    position: relative;
+}
+
+.mymer_section_tels {
+    width: 147px;
+    font-size: 14px;
+}
+
+.mymer_section_right_loupan {
+    width: 180px;
+    font-size: 12px;
+}
+
+.mymer_section_copyd {
+    width: 620px;
+}
+
+.mymer_section_right_remind {
+    position: relative;
+    font-size: 12px;
+	width:346px;
+}
+
+.mymer_section_right_remind1 {
+    padding-right: 26px;
+    font-size: 12px;
+    line-height: 30px;
+    background: url(../../images/v1.0/cop/square_blue.png) no-repeat right center;
+	float:left;
+}
+
+.mymer_section_right_remind2 {
+    position: absolute;
+    padding: 20px 12px;
+    left: 104px;
+    top: -11px;
+    z-index: 99;
+    display: none;
+}
+
+.mymer_section_right_square {
+    background: url(../../images/v1.0/cop/square.png) no-repeat;
+    width: 12px;
+    height: 20px;
+    z-index: 10;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+}
+
+.mymer_section_right_wrap {
+    position: absolute;
+    font-size: 12px;
+    color: #808080;
+    top: 0;
+    left: 19px;
+    border: 1px solid #d9d9d9;
+    width: 150px;
+    text-align: center;
+    z-index: 5;
+    background: #ffffff;
+    padding: 10px;
+    line-height: 24px;
+}
+
+.mymer_section_right_wrap li {
+    background: url(../../images/v1.0/cop/grey_point.jpg) left center no-repeat;
+}
+
+.mymer_section_right_wrap span {
+    margin: 0 6px;
+}
+
+.mymer_section_edit {
+    color: #c4c4c4;
+    background: url(../../images/v1.0/cop/pen_gray.png) left center no-repeat;
+    padding-left: 19px;
+}
+
+.mymer_section_edit:hover {
+    color: #227ac6;
+    background: url(../../images/v1.0/cop/pen_blue.png) left center no-repeat;
+    padding-left: 19px;
+}
+
+/*�ҵĿͻ�--�������---end*/
+
+/*�ҵĿͻ�--��������*/
+
+.cust_single_edit {
+    width: 958px;
+    border: 1px solid #e6e6e6;
+    background: #fcfcfc;
+    margin: 12px auto 0 auto;
+    padding-top: 48px;
+}
+
+.cust_single_edit_wrap {
+    font-size: 12px;
+    color: #666666;
+    padding-bottom: 21px;
+    line-height: 34px;
+}
+
+.cust_single_edit_wrap_l {
+    width: 138px;
+    text-align: right;
+    padding-right: 16px;
+}
+
+.cust_single_edit_wrap_r .sex {
+    padding: 0 26px 0 8px;
+}
+
+.editcr_line_box_l {
+    width: 75px;
+    line-height: 41px;
+    margin-right: 22px;
+    text-align: right;
+}
+
+.editcr_line_name {
+    width: 330px;
+    height: 32px;
+    border: 1px solid #d0d0d0;
+    margin-right: 25px;
+    color: #999999;
+    line-height: 32px;
+    padding-left: 12px;
+}
+
+.editcr_line_remind_w {
+    color: #ababab;
+    font-size: 12px;
+    background: url(../../images/v1.0/web02/reg2.png) no-repeat 0 center;
+    padding-left: 30px;
+}
+
+.editcr_line_remind_r {
+    background: url(../../images/v1.0/cop/log_in_ico_right.png) no-repeat 0 8px;
+    width: 16px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.addper_line_city {
+    width: 92px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d0d0d0;
+    margin-right: 25px;
+}
+
+.no_padding {
+    padding: 0;
+    width: 342px;
+    color: #353232;
+}
+
+.cust_single_loupan {
+    width: 330px;
+    height: 32px;
+    border: 1px solid #d0d0d0;
+}
+
+.cust_single_edit_add {
+    font-size: 14px;
+    padding: 0 26px;
+    background: url(../../images/v1.0/cop/add_one.png) no-repeat 0 center;
+}
+
+.cust_single_edit_reduce {
+    font-size: 14px;
+    padding: 0 26px;
+    background: url(../../images/v1.0/cop/reduce_one.png) no-repeat 0 center;
+}
+
+.cust_single_edit_padb {
+    padding-bottom: 14px;
+}
+
+.editcr_line_line {
+    line-height: 34px;
+    margin-left: -20px;
+    margin-right: 8px;
+
+}
+
+.binds_line_box_label {
+    white-space: nowrap;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    overflow: hidden;
+    margin-right: 18px;
+    line-height: 34px;
+}
+
+.binds_line_box_label input {
+    vertical-align: middle;
+    margin-right: 2px;
+
+}
+
+.binds_line_box_label span {
+    font-size: 14px;
+}
+
+.binds_line_box_r3 {
+    width: 770px;
+}
+
+.binds_btns_box_l1 {
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 105px;
+    height: 34px;
+    background: url(../../images/v1.0/cop/btns_blue.png) no-repeat 0 0;
+    margin-right: 24px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.binds_btns_box_l1:hover {
+    background: url(../../images/v1.0/cop/btns_blue_hover.png) no-repeat 0 0;
+}
+
+.binds_btns_box_l2 {
+    font-weight: bold;
+    border: none;
+    width: 105px;
+    height: 34px;
+    background: url(../../images/v1.0/cop/btns_white.png) no-repeat 0 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.binds_btns_box_l2:hover {
+    background: url(../../images/v1.0/cop/btns_white_hover.png) no-repeat 0 0
+}
+
+.mymer_content_textwin {
+    display: none;
+    text-align: center;
+    width: 325px;
+    height: 342px;
+    background: #ffffff;
+    position: absolute;
+    top: 280px;
+    left: 530px;
+    z-index: 200;
+    border-radius: 6px;
+    border: 1px solid #d0d0d0;
+    -webkit-box-shadow: 2px 4px 6px #dddddd;
+    -moz-box-shadow: 2px 4px 6px #dddddd;
+    box-shadow: 2px 4px 6px #dddddd;
+    filter: dropshadow(OffX=2, OffY=4, Color='#dddddd', Positive='true');
+}
+
+.mymer_content_textwin_close{
+    background: url("../../images/v1.0/add_close.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top:8px;
+}
+.mymer_shenqing{
+    color: #3c80d3;
+    font-size: 24px;
+    display: block;
+    padding:22px 0 10px 0;
+    margin: 0 auto;
+}
+.mymer_shenqing_text{
+    display: block;
+    width: 293px;
+    height: 202px;
+    border:1px solid #d0d0d0;
+    -webkit-box-shadow:2px 3px 3px #f6f6f6 inset ;
+    -moz-box-shadow: 2px 3px 3px #f6f6f6 inset;
+    box-shadow: 2px 2px 3px #f6f6f6 inset;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.editcr_bottom_bar22{
+    width: 234px;
+    height: 55px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.editcr_bottom_bar_next {
+    background: url("../../images/v1.0/single_btn_g.png") no-repeat;
+    width: 93px;
+    height: 32px;
+    color: #ffffff;
+    line-height: 32px;
+    font-size: 16px;
+	text-align:center;
+}
+
+.editcr_bottom_bar_prev {
+    background: url("../../images/v1.0/single_btn_r.png") no-repeat;
+    /*width: 115px;*/
+    width: 93px;
+    height: 32px;
+    color: #ffffff;
+    line-height: 32px;
+	text-align:center;
+}
+
+.sm_btn{ color:#fff !important;}
+
+
+
+.xf-dialog {display:none; padding:40px 0 0 50px; line-height:26px; position: absolute;z-index: 10001;width:470px; height:250px; color:#aae8ff; left: 50%; margin-left:-260px; top: 128px;background: white;outline: 0;overflow: hidden; background:url(../../images/v1.0/xf_bg1.jpg) 0 0 no-repeat;}
+.xf-dialog h3{line-height:60px; font-size:26px; color:#fff; font-family:"΢���ź�";}
+.xf-dialog img.fl{width:136px; margin-right:15px; display:block;}
+.xf-dialog p{margin-right:15px; font-family:"΢���ź�"; font-size:14px;}
+.xf-dialog-close{position:absolute; top:0; right:0; display:block; width:44px; height:41px; text-indent:-9999px; background:url(../../images/v1.0/xf_close.png) center no-repeat;}
+
+.xf-btn-lv{width:105px;color:#fff;display:inline-block;line-height:33px;height:33px;text-align:center;margin-top:16px;font-size:14px;font-weight:bold;background:url(../../images/v1.0/sunmit_btn.gif) no-repeat 0 0}
+

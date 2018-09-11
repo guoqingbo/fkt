@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/*
+rem
+ */
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, input, button, textarea, ul, ol, li, dl, dt, dd, div, img, form, p, iframe {
+  padding: 0;
+  margin: 0; }
+html{
+  font-family: 'Microsoft YaHei';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+img, input, button {
+  border: none; }
+
+input, button {
+   }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+img{
+  display: block;
+}
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.kft_alert{
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin: -160px 0 0 -253px;
+  width: 506px;
+  height: 330px;
+  padding: 8px;
+  background: rgb(143,145,148);
+  font-size: 14px;
+}
+.kft_alert .kft_alert_main{
+  width: 504px;
+  height: 329px;
+  background: #fff;
+  color: rgb(106,106,106);
+}
+.kft_alert_main .alert_head{
+  position: relative;
+  height: 43px;
+  line-height: 43px;
+  padding-left: 17px;
+  background: rgb(245,245,245);
+  border-bottom: 1px solid rgb(213,213,213);
+  font-size: 16px;
+}
+.alert_phone strong{
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+.alert_head span{
+  display: block;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  right: 16px;
+  top: 16px;
+  background: url(../../images/v1.0/phone_yz_pop/close.gif);
+  cursor: pointer;
+}
+.ajd_man{
+  margin-right: 50px;
+}
+.alert_con{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.ajd_func{
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.ajd_func label,
+.ajd_func input,
+.ajd_func span{
+  float:left;
+}
+
+.ajd_func .bv{
+  position: relative;
+  display: inline;
+  float: left;
+  width: 18px;
+  height: 18px;
+  background: url(../../images/v1.0/phone_yz_pop/bt_radio.gif) no-repeat;
+  margin-right: 6px;
+}
+.ajd_func .bot{
+  width: 18px;
+  height: 18px;
+}
+.ajd_func .checked{
+  background: url(../../images/v1.0/phone_yz_pop/bt_radio2.gif) center no-repeat;
+}
+.ajd_func  input{
+  display: block;
+  width: 18px;
+  height: 18px;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  cursor: pointer;
+}
+.ajd_func .ajd_man a{
+  color: red;
+}
+.kal_block .bt{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../../images/v1.0/phone_yz_pop/bt_note.gif) no-repeat;
+}
+.alert_block{
+  line-height: 170%;
+  font-size: 14px;
+  color: rgb(128,128,128);
+  font-size: 12px;
+}
+.kft_alert_bt{
+    position: relative;
+  width: 263px;
+  height: 40px;
+  margin: 0 auto;
+}
+.kft_alert_bt button,
+.kft_alert_bt span{
+  display: block;
+  width: 125px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.kft_alert_bt button{
+  float: left;
+  background: url(../../images/v1.0/phone_yz_pop/sure_bt.jpg);
+  color: #fff;
+}
+.kft_alert_bt span{
+  float: right;
+  background: url(../../images/v1.0/phone_yz_pop/no_bt.jpg);
+  color: #666;
+}
+.alert_dx input{
+  display: inline;
+  float: left;
+  margin-right: 8px;
+  width: 224px;
+  padding-left: 5px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid rgb(228,228,228);
+  color: #aaa;
+}
+.alert_dx .bt_yz{
+  display: block;
+  float: left;
+  width: 157px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid rgb(228,228,228);
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+}
+.alert_dx{
+  margin-bottom: 5px;
+}
+.kal_block{
+  display: none;
+  margin-bottom: 20px;
+}
+.wrong_msg{
+    color:red;
+    font-size:12px;
+}
+.alert_mmms{
+    margin-top: 10px;
+}
+.bgyy{
+    display: none;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:#000;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+}
+.list_item .load_bar{
+    display: none;
+    position: absolute;
+    left:1px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    background: url(../../images/v1.0/phone_yz_pop/loading.GIF ) no-repeat;
+}

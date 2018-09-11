@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*
+rem
+ */
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, input, button, textarea, ul, ol, li, dl, dt, dd, div, img, form, p, iframe {
+  padding: 0;
+  margin: 0; }
+html{
+  font-family: 'Microsoft YaHei';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+img, input, button {
+  border: none; }
+
+input, button {
+  -webkit-appearance: none; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+img{
+  display: block;
+}
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.kft_alert{
+  width: 540px;
+  background: rgb(242,242,242);
+}
+.alert_head{
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  background: rgb(23,82,131);
+  padding-left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.alert_head .kft_aler_close{
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 15px;
+  top: 10px;
+  background: url(../../images/v1.0/yy_pop/close.jpg) no-repeat;
+  cursor: pointer;
+}
+.alert_con{
+  padding: 12px;
+}
+.alert_main{
+  width: 494px;
+  height: 235px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(221,221,221);
+  background: #fff;
+  padding-top: 12px;
+  font-size: 14px;
+  overflow: auto;
+    overflow-x: hidden;
+}
+
+.kft_alert_bt button{
+  display: block;
+  width: 74px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: url(../../images/v1.0/yy_pop/bt_bg.jpg);
+  cursor: pointer;
+}
+.poop_logos img,
+.poop_logos span{
+  float: left;
+}
+
+.poop_logos span{
+  font-size: 12px;
+  color: rgb(34,122,198);
+}
+.poop_logos img{
+  display: inline;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  margin-right: 3px;
+}
+.poop_logos{
+  padding-left: 40px;
+}
+.alert_main table{
+  width: 100%;
+  font-size: 12px;
+  border-left: 1px solid rgb(226,232,230);
+  border-right: 1px solid rgb(226,232,230);
+  border-bottom: 1px solid rgb(226,232,230);
+}
+.alert_main table th,
+.alert_main table td{
+  text-align: center;
+  height: 37px;
+}
+.alert_main thead tr{
+  background: rgb(227,240,233);
+}
+.alert_main tbody td{
+  border-top: 1px solid rgb(226,232,230);
+}
+.kft_alert_bt{
+  width: 168px;
+  margin: 0 auto;
+}
+.kft_alert_bt button,
+.kft_alert_bt span{
+  float: left;
+  display: inline;
+  width: 74px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: url(../../images/v1.0/yy_pop/bt_bg.jpg);
+  cursor: pointer;
+  font-size: 12px;
+}
+.kft_alert_bt button{
+  margin-left: 14px;
+  background: #fff;
+  color: #666;
+
+}
+.has_wrong{
+    color: red;
+}
+.has_succ{
+    color: rgb(29,198,129);
+}
+.tb_time{
+    color: rgb(153,153,153);
+}

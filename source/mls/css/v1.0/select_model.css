@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 模拟select */
+
+.select_model_relative{ position:relative; z-index:2; }
+.select_model_hd{ background:#fff; border:1px solid #d1d1d1; height:24px; line-height:24px;overflow:hidden; }
+.select_model_hd_inner{ margin:0 0 0 10px;position:relative; height:24px;}
+.select_model_label{ width:100%; line-height:24px; display:block; cursor:pointer; position:absolute; top:0; left:-10px; height:24px; white-space:nowrap; z-index:1; padding-left:10px;}
+.select_model_input{cursor:pointer; display:block; position:absolute; height:24px; line-height:24px; left:0; top:0; width:100%; border:none; background:url(../../images/v1.0/select.gif) no-repeat right center #fff;}
+.select_model_mod{ display:none; width:100%; background:#fff; position:absolute; left:0; top:24px;z-index:20;}
+.select_model_list{ border:1px solid #d1d1d1; padding:2px 0;}
+.select_model_item{ height:25px; line-height:25px;}
+.select_model_link{ width:100%; display:block;height:25px;}
+.select_model_text{ padding:0 0 0 10px; cursor:pointer; color:#535353;}
+.select_model_link:hover{ background:#227ac6; text-decoration:none;}
+.select_model_link:hover .select_model_text{ color:#fff;}
+.select_model_list_hidden{ overflow-x:hidden; overflow-y:scroll;}
+

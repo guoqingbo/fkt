@@ -1,0 +1,330 @@
+﻿body {height:auto;overflow-y:auto;word-wrap: break-word;}
+* {margin:0;padding:0;list-style:none;}
+img {margin:0;padding:0;list-style:none;}
+.header.sea_land_bord{border-bottom:none;}
+.clear_f{clear:both;}
+.sea_nav_dh{float:left;display:inline;position:relative;width:450px;}
+.sea_nav_dh ul{float:left;display:inline;}
+.sea_nav_dh ul li{float:left;display:inline;font-size:16px;line-height:60px;color:#FFF;font-family:"微软雅黑";padding:0 20px;position:relative;}
+.sea_nav_dh ul li a{color:#FFF;}
+
+.sea_nav_dh ul li a.nav_on{color:#8ccaff;}
+.sea_nav_dh ul li a.nav_on_h{color:#8ccaff;}
+
+.sea_nav_dh ul li a:hover{color:#8ccaff;}
+.sea_nav_dh ul li span{width:100%;height:auto;float:left;display:none;overflow:hidden;background:#00549c;position:absolute;left:0;top:60px;}
+.sea_nav_dh ul li span p{width:100%;height:auto;float:left;display:inline;overflow:hidden;text-align:center;line-height:38px;font-size:14px;}
+.sea_nav_dh ul li span p a{display:block;color:#dedede;border:1px solid #00549c;background:#00549c;}
+.sea_nav_dh ul li span p a:hover{border:1px solid #3f8dd1;background:#006dcb;border-left:none;border-right:none;color:#dedede;}
+
+.sea_nav_list_xx{ height:auto;float:left;display:none;position:absolute;left:0;top:80px;background:#00549c;z-index:222;}
+.sea_nav_list_xx li{height:38px;text-align:center;line-height:38px;font-size:14px;color:#dedede;}
+.sea_nav_list_xx li a{padding:0 25px;margin:0;border-bottom:1px solid #00549c;border-top:1px solid #00549c;color:#dedede;font-size:14px;font-weight:normal;line-height:38px;}
+.sea_nav_list_xx li a:hover{border-bottom:1px solid #4090d5;border-top:1px solid #4090d5;background:#006dcb;color:#dedede;}
+.header.header_bg{background:#00549c;}
+.sea_land_top{height:60px;width:100%;float:left;display:inline;background:#00549c;}
+.sea_land_top_logo{width:144px;height:51px;float:left;display:inline;margin-top:15px;}
+.sea_land_top_logo img{width:100%;height:auto;float:left;display:inline;}
+.header .logo.log_padding{padding:6px 35px 0 0}
+.sea_land_main {width:1160px;margin:0 auto;}
+.sea_land_position {width:100%;height:41px;float:left;display:inline;}
+.sea_land_position p{float:left;display:inline;color:#808080;font-size:14px;line-height:41px;background:url(../../images/v1.0/sea_icon_position_03.jpg) no-repeat left center;padding-left:18px;}
+.sea_land_position p a{color:#808080;padding:0 5px;}
+.sea_land_position p a:hover{color:#237ed1;}
+.sea_land_position_bg {width:100%;height:auto;float:left;display:inline;background:#fafafa;}
+
+.sea_land_select {width:100%;height:auto;float:left;display:inline;padding:22px 0;}
+.sea_land_select_f1,.sea_land_select_f1_dl {width:100%;height:auto;float:left;display:inline;}
+.sea_land_select_f1_dl dd{width:50px;float:left;display:inline;font-size:14px;color:#666666;font-family:"Microsoft YaHei";line-height:34px;}
+.sea_land_select_f1_dl dt{width:1089px;float:left;display:inline;}
+.sea_land_select_f1_dl dt p{float:left;display:inline;margin-right:19px;font-size:14px;color:#666666;font-family:"Microsoft YaHei";line-height:34px;cursor:pointer;padding-bottom:8px;}
+.sea_land_select_f1_dl dt p a:hover {color:#237ed1;}
+.sea_land_select_f1_dl dt a {color:#666666;}
+.sea_land_select_f1_dl dt p.seclect_on {color:#237ed1;}
+.sea_land_select_f1_dl dt p.seclect_on a{color:#237ed1;}
+.sea_land_p_bg{background:url(../../images/v1.0/sea_pc_tj_03.jpg) no-repeat bottom center;}
+.sea_land_select_f1_span {width:95%;height:auto;float:left;display:inline;background:#eaeaea;padding:8px 2.5%;margin-bottom:10px;}
+.sea_land_select_f1_span p {float:left;display:inline;padding-right:19px;font-size:14px;color:#666666;font-family:"Microsoft YaHei";line-height:34px;cursor:pointer;}
+.sea_land_select_f1_span p b {padding:0 10px 0 0;font-weight:normal;}
+.sea_land_select_f1_span p b:hover{color:#237ed1;}
+.sea_land_select_f1_span p b.land_bon {color:#237ed1;}
+.sea_land_select_f1_span p a{color:#237ed1;}
+.sea_land__list {width:100%;height:auto;float:left;display:inline;padding:45px 0;}
+.sea_land__list.list_padd{padding:25px 0 0 0;}
+.sea_land__list dd {float:left;display:inline;}
+.sea_land__list dd p {width:118px;height:42px;float:left;display:inline;overflow:hidden;text-align:center;line-height:42px;color:#666666;font-size:14px;}
+.sea_land__list dd p a{color:#666666;display:block;width:100%;}
+.sea_land__list dd p a:hover {background:#f4f4f4;color:#666666;}
+.sea_land__list dd p.hover_cur {background:#f4f4f4;color:#666666;line-height:42px;float:left;display:inline;}
+.sea_land__list dd p.hover_cur a{color:#666666;background:  #f4f4f4;}
+.sea_land__list dd p.hover_curD {background:#f4f4f4;color:#666666;line-height:42px;}
+.sea_land__list dd p.hover_curD  a{color:#666666;background:#f4f4f4;}
+
+
+.sea_land__list dd span {float:left;display:inline;padding-left:35px;font-size:14px;line-height:42px;}
+.sea_land__list dd span b {color:#ec6c00;font-weight:normal;padding:0 6px;}
+.sea_land__list dt {float:right;display:inline;}
+.sea_land__list_input[type="text"] {width:266px;height:31px;float:left;display:inline;overflow:hidden;border:1px solid #dddddd;background:url(../../images/v1.0/sea_land_search_07.jpg) no-repeat 10px center;padding-left:30px;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:5px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:5px;color:#a9a9a9;line-height:31px;}
+.sea_land_list_submit {width:63px;height:33px;background:#237ed1;text-align:center;line-height:31px;border:none;font-size:14px;color:#FFF;cursor:pointer;-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:5px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:5px;}
+.sea_land_list_submit:hover{background:#2789e5;}
+.sea_land_list_items {width:100%;height:auto;float:left;display:inline;}
+.sea_land_list_items ul{width:100%;height:auto;float:left;display:inline;}
+.sea_land_list_items ul li{width:360px;height:385px;float:left;display:inline;overflow:hidden;margin:0 38px 30px 0;}
+.sea_land_list_items ul li:hover{box-shadow:2px 2px 5px #cacaca;}
+.sea_land_list_items ul li span{width:100%;height:auto;float:left;display:inline;position:relative;}
+.sea_land_list_items ul li span img{width:100%;float:left;height:250px;}
+.sea_land_list_items ul li span p{width:100%;height:22px;position:absolute;left:19px;bottom:18px;z-index:22;}
+.sea_land_list_items ul li span p b{font-weight:normal;color:#FFF;float:left;display:inline;padding:0 10px;line-height:22px;margin-right:6px;}
+.sea_land_sea_bg1{background:#188dd1;}
+.sea_land_spring_bg2{background:#e38827;}
+.sea_land_mountain_bg3{background:#23ac5d;}
+.sea_land_list_items ul li dl {width:318px;height:134px;float:left;display:inline;border:1px solid #dddddd;border-top:none;padding:0 20px;}
+.sea_land_list_items ul li dl dd{width:100%;height:37px;float:left;display:inline;overflow:hidden;color:#333333;text-overflow:ellipsis;white-space:nowrap;font-size:18px;line-height:36px;}
+.sea_land_list_items ul li dl dd a{ display:block;color:#333;font-weight:bold;}
+.sea_land_list_items ul li dl dt{width:100%;float:left;display:inline;}
+.sea_land_list_items ul li dl dt p{width:100%;float:left;display:inline;background:url(../../images/v1.0/sea_land_map_15.jpg) no-repeat left center;padding-left:20px;font-size:14px;line-height:36px;color:#eee;}
+.sea_land_list_items ul li dl dt p b{font-weight:normal;color:#999999;padding:0 7px 0 0;}
+.sea_land_list_items ul li dl dt strong{float:left;font-weight:normal;color:#ff6600;line-height:100%;padding-right:3px;}
+.sea_land_strong1{font-size:24px;padding-top:6px;}
+.sea_land_strong2{font-size:30px;}
+.sea_land_strong3{font-size:14px;padding-top:16px;}
+.sea_land_page{display:block;float:right;padding-bottom:56px;}
+.sea_land_page p{float:left;display:inline;}
+.sea_land_page a{width:30px;height:30px;float:left;display:inline;overflow:hidden;border:1px solid #e1e1e1;margin-left:10px;text-align:center;line-height:30px;color:#666666;}
+.sea_land_page a.to_left_hui{background:url(../../images/v1.0/sea_land_page1_19.jpg) no-repeat center;}
+.sea_land_page a.to_left{background:url(../../images/v1.0/sea_land_page1_19.jpg) no-repeat center;}
+.sea_land_page a.to_right {background:url(../../images/v1.0/sea_land_page2_21.jpg) no-repeat center;}
+.sea_land_page a.to_right_hui {background:url(../../images/v1.0/sea_land_page2_21.jpg) no-repeat center;}
+.sea_land_page a.checked{background:#63a3de;border:1px solid #63a3de;}
+.sea_land_page a.checked{color:#fff;}
+.sea_land_page a:hover{border:1px solid #63a3de;}
+.sea_land_page a.none_bord{border:none;}
+
+
+
+.sea_vist_list{width:100%;height:auto;float:left;display:inline;}
+.sea_vist_list ul{width:100%;height:auto;float:left;display:inline;}
+.sea_vist_list ul li{width:100%;height:auto;float:left;display:inline;border-bottom:1px solid #e4e4e4;padding-bottom:48px;margin-top:25px;margin-bottom:23px;}
+.sea_vist_list_span{width:390px;height:270px;float:left;display:inline;overflow:hidden;position:relative;overflow:hidden;}
+.sea_vist_list_span img{width:100%;float:left;height:270px;}
+.sea_vist_list_span p{position:absolute;left:0;z-index:22;top:0;float:left;display:inline;background:#52b32e;padding:0 12px;line-height:30px;font-size:14px;color:#FFF;}
+.sea_vist_list_dl{width:768px;height:auto;float:left;display:inline;}
+.sea_vist_list_dl h2{width:90%;height:45px;float:left;display:inline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:#fafafa;line-height:45px;padding:0 5%;font-weight:bold;font-size:20px;}
+.sea_vist_list_dl h2 a{display:block;color:#333333;}
+.sea_vist_list_dl h2 a:hover{color:#0066cc;}
+.sea_vist_list_dl_con{width:95%;height:auto;float:left;display:inline;padding:0 0 0 5%;margin-top:26px;}
+.sea_vist_list_dl_con dd{width:100%;height:auto;float:left;display:inline;}
+.sea_vist_list_dl_con dd b{width:100%;height:auto;float:left;display:inline; background:url(../../images/v1.0/sea_visit_map2_03.jpg) no-repeat left 4px;font-weight:normal;text-indent:1.5em;font-size:16px;color:#333333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;    line-height: 23px;}
+.sea_vist_list_dl_con dd b a{ display:block;color:#333333;text-overflow:ellipsis;white-space:nowrap;width:100%;height:auto;float:left;}
+.sea_vist_list_dl_con dd p{width:100%;height:auto;float:left;display:inline;font-size:14px;color:#666666;margin-top:16px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.sea_vist_list_dl_con dd p a{display:block;color:#666;}
+.sea_vist_list_dl_con dd a:hover{ color:#0066cc;}
+/*.sea_vist_list_dl_con dd:hover p{ color:#0066cc;}.sea_vist_list_dl_con dd:hover b{ color:#0066cc;}*/
+.sea_vist_list_dl_con dt{width:100%;height:auto;float:left;display:inline;}
+.sea_vist_list_dl_con dt p{width:100%;height:auto;float:left;display:inline;color:#ff7500;font-weight:bold;font-size:20px;padding:10px 0 15px 0;}
+.sea_vist_list_dl_con dt p b{font-size:30px;font-weight:bold;}
+.sea_vist_list_dl_con dt span{border:1px solid #cc9800;background:#fefdf0;float:left;display:inline;padding:0 14px;font-size:14px;color:#bb8b00;line-height:26px;}
+
+.sea_land_list_items_detial{width:100%;height:500px;float:left;background:#e0edf8;}
+.sea_land_list_items_detial_banner {width:100%;height:500px;float:left;display:inline;overflow:hidden;position:relative;}
+.sea_land_list_items_detial_banner ul{width:100%;height:500px;float:left;display:inline;overflow:hidden;}
+.sea_land_list_items_detial_banner ul li{width:1160px;height:500px;float:left;display:inline;overflow:hidden;position:relative;}
+.sea_land_list_items_detial_banner ul li img{width:100%;height:auto;float:left;}
+.detial_banner_pre{width:50%;height:500px;float:left;display:none;overflow:hidden;position:absolute;z-index:99;cursor:pointer;}
+.banner_pre_left{left:0;top:220px;float:left;}
+.banner_pre_right{right:0;top:220px;float:right;text-align:right;}
+.sea_land_list_items_detial_banner:hover .detial_banner_pre{display:inline;}
+.detial_banner_bg{width:100%;height:90px;float:left;display:inline;overflow:hidden;background:#000;position:absolute;bottom:0;left:0;z-index:999;filter(opacity=80);opacity:0.8;z-index:222;}
+.detial_banner_bg_con{width:90%;float:left;display:inline;position:absolute;bottom:0;left:0;padding:15px 5%;z-index:333;}
+.detial_banner_bg_con dd{width:auto;float:left;display:inline;}
+.detial_banner_bg_con dd p{display:block;font-size:24px;line-height:28px;color:#ffffff;}
+.detial_banner_bg_con dd b{display:block;font-size:14px;line-height:28px;color:#999999;font-weight:normal;background:url(../../images/v1.0/sea_land_map3_14.png) no-repeat left center;text-indent:1.5em;}
+.detial_banner_bg_con dt{float:right;display:inline;color:#ff7500;font-size:14px;padding-top:10px;text-align:right;}
+.detial_banner_bg_con dt strong{font-size:24px;}
+
+.sea_land_list_con{width:100%;float:left;display:inline;margin-top:32px;padding-bottom:32px;}
+.sea_land_list_con_left{width:902px;height:auto;float:left;display:inline;}
+.sea_land_list_con_left_introduce{width:902px;float:left;display:inline;background:#f2f2f2;}
+.sea_land_list_con_left_introduce p{float:left;display:inline;font-size:16px;font-weight:bold;color:#333;line-height:50px;}
+.sea_land_list_con_left_introduce p a{display:block;color:#333;padding:0 35px;}
+.sea_land_list_con_left_introduce p a:hover{color:#237ed1;}
+.sea_land_list_con_left_introduce p.detial_left_on{background:#237ed1;color:#FFF;}
+.sea_land_list_con_left_introduce p.detial_left_on a{background:#237ed1;color:#FFF;}
+.sea_land_list_con_left_common{width:100%;height:auto;float:left;display:inline;margin-top:40px;}
+.sea_land_list_con_left_title{width:100%;height:41px;float:left;display:inline;border-bottom:1px solid #e6e6e6;position:relative;}
+.sea_land_list_con_left_title p{float:left;display:inline;border-bottom:3px solid #ec6c00;position:absolute;left:0;bottom:0;font-size:20px;color:#333333;line-height:38px;font-weight:bold;}
+.sea_land_list_con_left_facility{width:100%;height:auto;float:left;display:inline;padding-top:25px;}
+.sea_land_list_con_left_facility dd{width:100%;height:auto;float:left;display:inline;}
+.sea_land_list_con_left_facility dd b{width:100%;font-size:14px;line-height:30px;color:#333333;float:left;display:inline;font-weight:normal;}
+.sea_land_list_con_left_facility em{color:#999999;}
+.sea_land_list_con_left_facility dd p{width:213px;height:auto;float:left;display:inline;font-size:14px;line-height:30px;color:#333333;}
+.sea_land_list_con_left_facility dt{width:90%;height:auto;float:left;display:inline;margin-top:25px;background:#f8f8f8;padding:20px 5%;font-size:14px;line-height:28px;color:#101010;}
+.sea_land_list_con_left_facility dd p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.sea_land_list_con_left_map{width:899px;height:319px;float:left;display:inline;margin-top:20px;}
+
+.oversea_list_detial_area_total{width:100%;float:left;display:inline;margin-top:27px;}
+
+.oversea_list_detial_area_left {width:450px;float:left;display:inline;overflow:hidden;height:300px;position:relative;}
+.oversea_list_detial_area_left ul li{width:450px;height:300px;float:left;display:inline;overflow:hidden;}
+.oversea_list_detial_area_left ul li img {width: 100%;float: left;display: inline;}
+.div_bg {width:100%;height:37px;float:left;display:none;overflow:hidden;background:#000;filter:alpha(opacity=50);opacity:0.5;position:absolute;bottom:0;right:0;z-index:22;
+}
+
+.oversea_list_detial_area_left:hover .div_bg_p_pre{display:inline;}
+.oversea_list_detial_area_left:hover .div_bg_p_nex{display:inline;}
+.div_bg_p {width:100%;height:37px;line-height:37px;color:#fff;text-align:center;position:absolute;bottom:0;right:0;z-index:23;display:none;}
+.div_bg_p_pre {width:30px;height:60px;line-height:37px;color:#fff;text-align:center;position:absolute;bottom:50%;left:0;z-index:23;font-size:27px;cursor:pointer;background:url(../../images/v1.0/sea_land_visit_pre_03.png) no-repeat center;font-size:0;margin-top:30px; display:none;}
+.div_bg_p_nex {width:30px;height:60px;line-height:37px;color:#fff;text-align:center;position:absolute;bottom:50%;right:0;z-index:23;font-size:27px;cursor:pointer;background:url(../../images/v1.0/sea_land_visit_nex_05.png) no-repeat center;font-size:0;margin-top:30px;display:none;}
+/*.div_bg_p_nex:hover{background:url(../../images/v1.0/sea_right1o_08.png) no-repeat center;}
+.div_bg_p_pre:hover{background:url(../../images/v1.0/sea_left1o_07.png) no-repeat center;}*/
+.oversea_list_detial_area_total_text{width:426px;float:right;display:inline;font-size:14px;line-height:28px;color:#333;}
+.sea_land_list_con_left_surport{float:right;display:inline;}
+.sea_land_list_con_left_surport dd{width:26px;height:31px;float:left;display:inline;background:url(../../images/v1.0/sea_land_tab1_18.png) no-repeat 0 0;cursor:pointer;}
+.sea_land_list_con_left_surport dd:hover{background-position:0 -32px;}
+.sea_land_list_con_left_surport dt{width:26px;height:31px;float:left;display:inline;background:url(../../images/v1.0/sea_land_tab1_18.png) no-repeat -27px 0;cursor:pointer;margin-left:8px;}
+.sea_land_list_con_left_surport dt:hover{background-position:-27px -32px;}
+.sea_land_list_con_left_surport_ind{width:100%;height:auto;float:left;display:inline;margin-top:26px;}
+.sea_land_list_con_left_surport_ind_img{width:100%;height:220px;float:left;display:inline;overflow:hidden;position:relative;}
+.sea_land_list_con_left_surport_ind_img ul{height:220px;float:left;display:inline;overflow:hidden;}
+.sea_land_list_con_left_surport_ind_img ul li{width:290px;height:220px;float:left;display:inline;overflow:hidden;position:relative;padding-right:15px;}
+.sea_land_list_con_left_surport_ind_img ul li img{width:290px;height:220px;float:left;display:inline}
+.sea_land_list_con_left_surport_ind_img ul li div{width:290px;height:40px;position:absolute;left:0;bottom:0;z-index:2;background:#000;filter:alpha(opacity=70);opacity:0.7;}
+.sea_land_list_con_left_surport_ind_img ul li p{width:290px;height:40px;position:absolute;left:0;bottom:0;z-index:4;line-height:40px;color:#FFF;font-size:14px;text-align:center;}
+.sea_land_list_con_left_surport_ind_mess{width:100%;height:auto;float:left;display:inline;padding:20px 0 60px 0;}
+.sea_land_list_con_left_surport_ind_mess p{width:100%;height:auto;float:left;display:inline;font-size:14px;line-height:28px;color:#333;}
+
+.sea_land_list_con_right{width:230px;height:auto;float:right;display:inline;}
+.sea_land_list_con_right_title{width:90%;height:50px;float:left;display:inline;background:#237ed1;line-height:50px;padding:0 5%;font-size:16px;color:#ffffff;}
+.sea_land_list_con_right_online{width:90%;float:left;display:inline;padding:0 5%;background:#f8f8f8;padding-bottom:36px;}
+.sea_land_list_online_p{width:100%;float:left;display:inline;font-size:14px;color:#999999;line-height:48px;}
+.sea_land_list_online_input{ width:94%;height:29px;float:left;display:inline;overflow:hidden;border:1px solid #dcdcdc;padding:5px 3%;font-size:14px;line-height:29px;color:#999999;margin-bottom:10px;background:#FFF;}
+.sea_land_list_online_sub{width:100%;height:38px;float:left;display:inline;overflow:hidden;background:#ec6c00;margin-top:12px; text-align:center;font-size:14px;color:#FFF;line-height:38px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;cursor:pointer;}
+.sea_land_list_online_sub:hover{background:#f96f09;}
+.sea_land_list_online_img{width:86%;height:auto;float:left;display:inline;padding: 22px 7%;background: #f8f8f8;border-top:1px solid #e8e8e8;border-bottom:2px solid #dcdcdc;}
+.sea_land_list_online_img img{width:41px;height:auto;float:left;}
+.sea_land_list_online_img span{width:142px;float:left;display:inline;overflow:hidden;padding-left:10px;}
+.sea_land_list_online_img span b{font-weight:normal;width:100%;float:left;display:inline;font-size:12px;line-height:22px;color:#737373;}
+.sea_land_list_online_img span p{width:100%;float:left;display:inline;font-size:21px;line-height:22px;color:#e90000;font-weight:bold;font-family:Arial;}
+
+
+.sea_land_visit_detial_b{width:224px;height:306px;float:left;display:inline;overflow:hidden;background:url(../../images/v1.0/sea_land_visit_bj_03.png) repeat;position:absolute;right:55px;top:76px;padding:20px;}
+.sea_land_visit_detial_b h3{width:100%;float:left;display:inline;font-size:20px;color:#FFF;}
+.sea_land_visit_detial_b h3 a{display:block;color:#FFF;}
+.sea_land_visit_detial_b_dl{width:100%;float:left;display:inline;}
+.sea_land_visit_detial_b_dl dd{ width:100%;float:left;display:inline;overflow:hidden;font-size:14px;line-height:24px;color:#FFF;margin-top:15px;}
+.sea_land_visit_detial_b_dl dd b{font-weight:normal;font-size:28px;color:#ff6600;font-family:Arial;padding-left:0.25em;}
+.sea_land_visit_detial_b_dl dt{ width:100%;float:left;display:inline;margin-top:15px;}
+.sea_land_visit_detial_b_dl dt p{float:left;display:inline;margin-right:8px;font-size:12px;line-height:20px;color:#FFF;padding:0 10px;}
+.style_bg1{background:#188dd1;}
+.style_bg2{background:#e38827;}
+.style_bg3{background:#23ac5d;}
+.sea_land_visit_detial_b_span{width:100%;float:left;display:inline;margin-top:15px;}
+.sea_land_visit_detial_b_span p{width:100%;float:left;display:inline;color:#cccccc;font-size:14px;line-height:28px;}
+.sea_land_list_con_left_surport_ind_mess.land_visit_pad{padding:20px 0 0 0;}
+.sea_land_list_con_left_surport_ind_mess.land_visit_pad p{color:#101010;}
+.sea_land_visit_detial_rstyle{float:right;display:inline;}
+.sea_land_visit_detial_rstyle a{float:left;display:inline;font-size:14px;line-height:28px;color:#999999;line-height:41px;padding-left:25px;color:#999;}
+.sea_land_visit_detial_rstyle a:hover{color:#ec6c00;}
+.sea_land_visit_detial_rstyle a.aOn{color:#ec6c00;}
+.sea_land_visit_detial_rstyle_show{width:100%;height:auto;float:left;display:inline;}
+.sea_land_visit_detial_rstyle_mess{width:100%;height:auto;float:left;display:inline;overflow:hidden;margin-top:18px;}
+.sea_land_visit_detial_rstyle_mess dl{width:100%;height:auto;float:left;display:inline;background:#f6f6f6;margin-bottom:18px;}
+.sea_land_visit_detial_rstyle_mess dl dd{width:auto;float:left;display:inline;padding-left:17px;font-size:14px;line-height:40px;color:#000000;}
+.sea_land_visit_detial_rstyle_mess dl dt{width:auto;float:left;display:inline;padding-left:33px;font-size:14px;line-height:40px;color:#000000;}
+.sea_land_visit_detial_rstyle_mess_scoll{width:844px;height:auto;float:left;display:inline;overflow:hidden;position:relative;}
+.sea_land_visit_detial_rstyle_mess_scoll ul{width:auto;float:left;display:inline;}
+.sea_land_visit_detial_rstyle_mess_scoll ul li{width:195px;height:182px;float:left;display:inline;padding-left:14px;}
+.sea_land_visit_detial_rstyle_mess_scoll ul li span{width:195px;height:149px;float:left;display:inline;position:relative;overflow:hidden;}
+.sea_land_visit_detial_rstyle_mess_scoll ul li span img{width:100%;float:left;display:inline;cursor:pointer;}
+.sea_land_visit_detial_rstyle_mess_scoll ul li span b{font-weight:normal;position:absolute;left:0;bottom:0;z-index:22;background:#000;color:#FFF;line-height:25px;padding:0 6%;filter:alpha(opacity=80);opacity:0.8;}
+.sea_land_visit_detial_rstyle_mess_scoll ul li p{width:100%;height:auto;float:left;display:inline;background:#f6f6f6;font-size:14px;line-height:32px;color:#ea3333;background:#f6f6f6;text-indent:1em;}
+.sea_land_scroll_left{width:28px;height:182px;float:left;display:inline;overflow:hidden;}
+
+.sea_land_scroll_left.tab_img_jt_l{background:url(../../images/v1.0/no_click_l_03.jpg) no-repeat center;}
+.sea_land_scroll_left.tab_img_jt_r{background:url(../../images/v1.0/no_click_r_05.jpg) no-repeat center;}
+
+.sea_land_scroll_left.room_style_pre{background:url(../../images/v1.0/sea_visit_left_03.jpg) no-repeat center;}
+.sea_land_scroll_left.room_style_nex{background:url(../../images/v1.0/sea_visit_right_05.jpg) no-repeat center;}
+
+
+.sea_land_scroll_left img{width:28px;height:182px;float:left;}
+.sea_land_scroll_left_base_mess{width:100%;height:auto;float:left;display:inline;margin-top:18px;}
+.sea_land_scroll_left_base_mess p{width:40%;float:left;display:inline;font-size:14px;line-height:28px;color:#333333}
+.sea_land_scroll_left_around{width:100%;height:32px;float:left;display:inline;background:#f9f9f9;border-bottom:1px solid #ececec;margin-top:15px;}
+.sea_land_scroll_left_around p{float:left;display:inline;font-size:14px;padding:0 10px;color:#333333;line-height:32px;cursor:pointer;}
+.sea_land_scroll_left_around p a{color:#333333;display:block;float:left;padding:0 10px;}
+.sea_land_scroll_left_around p.aroundOn{color:#FFF;background:#2b86e3;}
+.sea_land_scroll_left_around p.aroundOn a{color:#FFF;background:#2b86e3;}
+.sea_land_scroll_left_around p a:hover{color:#2b86e3;float:left;display:block;}
+.sea_land_scroll_left_around p.aroundOn a:hover{color:#FFF;background:#2b86e3;}
+.sea_land_scroll_left_around_map{width:100%;height:385px;float:left;display:inline;padding:15px 0 39px 0;overflow:hidden;}
+.sea_land_scroll_pop_bg{width:100%;height:100%;float:left;display:none;overflow:hidden;background:#000;filter:alpha(opacity=70);opacity:0.7;position:fixed;left:0;bottom:0;z-index:999;}
+
+.sea_land_scroll_pop_con{width:1160px;height:auto;float:left;display:inline;overflow-y:auto;overflow-x:hidden;padding:0 20px;position:fixed;left:-100000px;top:0;z-index:9999;}
+
+.sea_land_scroll_pop_con_left,.sea_land_scroll_pop_con_right{width:92px;height:auto;float:left;display:inline-block;cursor:pointer;}
+.sea_land_scroll_pop_con_left img{width:40px;float:left;display:inline;}
+.sea_land_scroll_pop_con_right img{float:right;width:40px;display:inline;}
+.sea_land_scroll_pop_con_img_sc{width:958px;height:auto;float:left;display:inline;overflow:hidden;background:#FFF;}
+.sea_land_scroll_pop_con_img_sc_top{width:958px;height:auto;float:left;display:inline;overflow:hidden;}
+.sea_land_scroll_pop_con_img_sc_top ul{float:left;display:inline;}
+.sea_land_scroll_pop_con_img_sc_top ul li{width:958px;height:auto;float:left;display:inline;overflow:hidden;text-align:center;}
+.sea_land_scroll_pop_con_img_sc_top ul li img{max-width:100%;height:auto;}
+.sea_land_scroll_pop_con_img_sc_top ul li p{width:100%;height:50px;background:#343434;float:left;display:inline;line-height:50px;color:#FFF;font-size:14px;}
+.sea_land_scroll_pop_con_img_sc_top ul li p b{font-weight:normal;float:left;padding-left:10px;}
+.sea_land_scroll_pop_con_img_sc_top ul li p strong{font-weight:normal;float:right;padding-right:10px;}
+.sea_land_scroll_pop_con_img_sc_bottom{width:958px;height:auto;float:left;display:inline;overflow:hidden;background:#343434;padding-bottom:14px;}
+.sea_land_scroll_pop_con_img_sc_bottom ul{float:left;display:inline;}
+.sea_land_scroll_pop_con_img_sc_bottom ul li{float:left;display:inline;width:149px;height:106px;overflow:hidden;position:relative;margin-left:9px;background:#FFF;}
+.sea_land_scroll_pop_con_img_sc_bottom ul li img{width:100%;height:106px;float:left;}
+.sea_land_scroll_pop_con_img_sc_bottom ul li p{width:145px;height:102px;float:left;display:none;position:absolute;left:0;bottom:0;z-index:233;border:2px #ec6c00 solid ;}
+.sea_land_scroll_pop_con_img_sc_bottom ul li:hover p{display:inline;}
+.sea_land_scroll_pop_con_img_sc_bottom ul li.pop_li_on p{display:inline;}
+.sea_land_scroll_pop_close{ width:100%;height:40px;float:left;display:inline;overflow:hidden;color:#cccccc;font-size:40px;text-align:right;line-height:40px;cursor:pointer;}
+
+
+
+/*海外置业指南*/
+.oversea_guide_body{width:100%;height:auto;float:left;display:inline;background:#f0f0f0;}
+.oversea_guide_banner{width:100%;height:auto;float:left;display:inline;overflow:hidden;background:url(../../images/v1.0/oversea_guide_banner_02.jpg) no-repeat top center;}
+.oversea_guide_title{width:1020px;height:auto;float:left;display:inline;overflow:hidden;color:#FFF;font-size:24px;line-height:114px;margin-left:70px;}
+
+.oversea_guide_con{width:1020px;height:auto;float:left;display:inline;background:url(../../images/v1.0/oversea_guide_top_bg_03.png) no-repeat top center;padding-top:10px;margin-left:70px;}
+
+.oversea_guide_con_side{width:890px;height:auto;float:left;display:inline;background:url(../../images/v1.0/oversea_guide_bg_03.png) repeat-y;padding:0 65px;}
+.oversea_guide_con_bottom{width:1020px;height:65px;float:left;display:inline;background:url(../../images/v1.0/oversea_bottom_bg_08.png) no-repeat;margin-bottom:33px;}
+.oversea_guide_con_dl{width:100%;height:auto;float:left;display:inline;border-bottom:1px solid #f0f0f0;padding:30px 0 16px 0;}
+.oversea_guide_con_dl dd{width:100%;height:auto;float:left;display:inline;text-align:center;font-size:24px;color:#333333;line-height:53px;}
+.oversea_guide_con_dl dt{width:100%;height:auto;float:left;display:inline;text-align:center;font-size:14px;color:#999999;line-height:30px;}
+.oversea_guide_con_text{width:100%;height:auto;float:left;display:inline;padding-top:30px;}
+.oversea_guide_con_text p{width:100%;height:auto;float:left;display:inline; margin-bottom:15px;font-size:14px;line-height:24px;color:#333333;}
+
+
+/*为什么选择我们*/
+.oversea_why_banner{width:100%;height:auto;float:left;display:inline;overflow:hidden;background:url(../../images/v1.0/oversea_why_banner_021.jpg) no-repeat top center;}
+.oversea_why_content{width:100%;height:auto;float:left;display:inline;}
+.oversea_why_content span{width:100%;height:auto;float:left;display:inline;padding:25px 0;font-size:14px;line-height:24px;color:#333333;}
+.oversea_why_content ul{width:100%;height:auto;float:left;display:inline;}
+.oversea_why_content ul li{width:100%;height:auto;float:left;display:inline;border:1px solid #f5f5f5;margin-bottom:25px;}
+.oversea_why_content ul li img{width:238px;height:136px;float:left;display:inline;overflow:hidden;border-right:2px solid #f5f5f5;}
+.oversea_why_content ul li dl{width:auto;float:left;display:inline;padding-left:20px;}
+.oversea_why_content ul li dl dd{width:100%;display:block;font-size:16px;line-height:24px; color:#333333;}
+.oversea_why_content ul li dl dt{width:100%;display:block;font-size:14px;line-height:24px; color:#333333;}
+/*置业业务介绍*/
+.oversea_introduce_banner{width:100%;height:auto;float:left;display:inline;overflow:hidden;background:url(../../images/v1.0/oversea_intro_banner1.jpg) no-repeat top center;}
+
+
+
+/*置业流程*/
+.oversea_process_banner{width:100%;height:auto;float:left;display:inline;overflow:hidden;background:url(../../images/v1.0/oversea_buy_banner_021.jpg) no-repeat top center;}
+.oversea_process_list{width:100%;height:auto;float:left;display:inline;overflow:hidden;}
+.oversea_process_list dl{width:100%;height:auto;float:left;display:inline;overflow:hidden;padding:23px 0;}
+.oversea_process_list dl dd{width:86px;height:86px;float:left;display:inline;overflow:hidden;}
+.oversea_process_list dl dd img{width:100%;height:auto;float:left;display:inline;}
+.oversea_process_list dl dt{width:auto;height:auto;float:left;display:inline;padding-left:25px;}
+.oversea_process_list dl dt b{width:100%;float:left;display:inline;overflow:hidden;font-size:14px;color:#333333;line-height:24px;}
+.oversea_process_list dl dt p{width:100%;float:left;display:inline;overflow:hidden;font-size:14px;color:#666666;line-height:24px;}
+
+
+.search_null{width:100%;height:auto;float:left;display:inline;text-align:center;padding:90px 0;}
+.search_null{font-size:14px;color:#666;line-height:24px;}

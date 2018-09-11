@@ -1,0 +1,221 @@
+/********* base *********/
+html{font-size:16px;min-height:100%;}
+body{ font-family:"Hiragino Sans GB", Helvetica, sans-serif, "Microsoft Yahei"; color:#666;font-family:"Microsoft Yahei";-webkit-appearance: none;font-family: "微软雅黑";}
+input,button{-webkit-appearance: none;}
+.body_index_bg{background:#38113e;}
+.body_apply_bg{background:url(../images/mortgage/apply_footer_10.png) no-repeat bottom center #fafafa;width:100%;height:100%;float:left;display:inline;background-size:90%;}
+.hidden{height:100%; overflow:hidden;}
+figure{margin:0;padding:0;list-style:none;}
+/* box */
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.pt20{padding-top:20px;}
+.pb10{padding-bottom:10px;}
+.mr5{margin-right:5px;}
+.mr20{margin-right:20px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mt-1{margin-top:-1px;}
+.center{text-align:center;}
+/* color */
+.f999{color:#999;}
+.f333, .ui-list-info p.f333{color:#333;}
+.fff{color:#fff;}
+.f9a9a9a{color:#9a9a9a;}
+.fec6c00{color:#ec6c00;}
+.fea3333{color:#ea3333;}
+.f60{color:#f60;}
+
+/* font */
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f15{font-size:15px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+
+.ui-searchbar input{font-size:12px;}
+
+/********* 首页 *********/
+
+.dydk_index{width:750px;margin:0 auto;}
+.dydk_index_head{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_head img{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_inf{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_inf img{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_us{width:100%;height:auto;float:left;display:inline;padding-bottom:3.5rem;}
+.dydk_index_us dd{ display:block;text-align:center;}
+.dydk_index_us dd img{width:100%;}
+.dydk_index_us dt{ display:block;text-align:center;padding-top:10px;}
+.dydk_index_us dt span{ width:25%;float:left;display:inline;overflow:hidden;text-align:center;}
+.dydk_index_us dt span img{width:4rem;}
+.dydk_index_us dt span b{width:100%;height:auto;font-size:0.75rem;line-height:1.5rem;color:#FFF;font-family:"Microsoft YaHei";display:block;}
+.dydk_index_us dt span p{width:100%;height:auto;font-size:0.5rem;line-height:1rem;color:#FFF;font-family:"Microsoft YaHei";display:block;opacity:0.7;filter:(opacity=70);}
+
+.dydk_index_footer{width:100%;height:2.5rem;background:url(../images/mortgage/app_bj_06.png)  repeat;float:left;display:inline;overflow:hidden; position:fixed;bottom:0;left:0;}
+
+.dydk_index_footer_btn{width:100%;height:2.5rem;float:left;display:inline;background:#ff7200;text-align:center;line-height:2.5rem;font-size:1rem;color:#FFF;cursor:pointer;line-height:2.5rem;}
+.dydk_index_footer_btn a{display:block;color:#FFF;}
+.dydk_apply_tel{width:100%;height:auto;float:left;display:inline;}
+.dydk_apply_title{display:block;padding-top:5%;}
+.dydk_apply_title img{float:left;padding-left:5%;width:1rem;}
+.dydk_apply_title p{float:left;display:inline;padding-left:8px;font-size:0.75rem; color:#999999;font-family:"Microsoft YaHei", Arial;}
+.dydk_apply_inf{width:100%;height:auto;float:left;display:inline;background:#FFF;margin-top:1rem;border-top:1px solid #dcdcdc;}
+.dydk_apply_inf dd{width:90%;height:1.5rem;float:left;display:inline;border-bottom:1px solid #dcdcdc;padding:0.75rem 5%;line-height:1.5rem;font-size:0.85rem;overflow:hidden;color: #333;}
+.dydk_apply_inf dt{width:90%;height:1.5rem;float:left;display:inline;border-bottom:1px solid #dcdcdc;padding:0.75rem 5%;line-height:1.5rem;font-size:0.85rem;overflow:hidden;}
+.dydk_apply_inputTel[type="tel"]{width:100%;height:1.5rem;border:none;line-height:1rem;color:#333;font-family:arial,"Microsoft YaHei", Arial;font-size:0.85rem;-webkit-appearance: none;}
+.dydk_apply_inputTel,.dydk_apply_inputInput{color:#333;font-family:"Microsoft YaHei"; background: none;}
+.dydk_apply_inputInput[type="text"]{width:100%;height:1.5rem;border:none;line-height:1.5rem;color:#333;font-family:"Microsoft YaHei", Arial;font-size:0.85rem;-webkit-appearance: none;}
+.dydk_apply_yzm{border:1px solid #ff7200;color:#ff7200;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;height:1.5rem;padding:0 5px;text-align:center;font-size:0.75rem;}
+
+.dydk_apply_submit[type="submit"]{width:90%;margin:5%;background:#ffbf8b;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;font-size:1rem;color:#FFF;text-align:center;line-height:2.5rem;float:left;display:inline;border:none;-webkit-appearance: none;font-family:"Microsoft YaHei", Arial;}
+.dydk_apply_submit.Onhover{background:#ff7200;-webkit-appearance: none;}
+.dydk_apply_zx{width:100%;height:auto;float:left;display:inline;text-align:center;color:#999999;line-height:2rem;font-size:0.8rem;font-family:"Microsoft YaHei",arial;}
+.dydk_apply_inf_sex{float:left;display:inline;border:1px solid #ff7200; color:#ff7200;line-height:1.5rem;margin-top:0;font-size:0.75rem;width:2.5em;text-align:center;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;position:relative;z-index:6;}
+.dydk_apply_inf_sex_div{position:absolute;top:0;background:#ff7200;height:1.5rem;width:2.2em;padding:1px 0 0 0;z-index:2;left:0;}
+
+.leftBorder{border-right:none;border-top-left-radius:5px;border-bottom-left-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topleft:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;}
+
+.rightBorder{border-left:none;border-top-right-radius:5px;border-bottom-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topright:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomright:5px;}
+
+
+
+
+/*css3分栏处理*/
+#clumn{display:-webkit-box;display:-moz-box;display:box;}
+#clumn1{width:4.5em;}
+#clumn2{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;}
+#clumn3{width:6em;}
+#clumn4{width:5em;}
+#clumn5{width:1.5em;}
+#clumn6{width:5em;}
+/* header */
+
+
+@keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-webkit-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-moz-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-ms-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-moz-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-o-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+
+@keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-webkit-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-moz-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em;}
+}
+
+@-ms-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-moz-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-o-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+
+@media screen and (max-width:750px) {
+    .dydk_index{width:100%;}
+}
+
+
+
+.city_select{width:96%;font-size:0.85rem;color:#333;border:none;font-family:"Microsoft YaHei";-webkit-appearance: none;background:url(../images/jt_03.jpg) no-repeat right center;}
+
+
+
+
+
+
+
+/**app金融2016-11-30**/
+.body_apply_bg.sz_jr_bg{background: none;}
+.dydk_apply_inf.zws_fsm_style{border-top: none;margin-top: 0;}
+.dydk_apply_zx.app_jr_btn{}
+
+
+/**金融列表**/
+.app_finance_bg{background: #FFF;}
+.app_finance_list{width: 100%;float: left;display: inline;}
+
+.app_prodect{width: 90%;height:40px;float: left;display: inline;overflow: hidden;padding: 10px 5%;border-bottom: 1px solid #f2f2f2;}
+
+.app_prodect_introduce{width:85%;float: right;display: inline;overflow: hidden;height: 40px;}
+.app_prodect_introduce dd{width:80%;float: left;display: inline;}
+.app_prodect_introduce dd b{display: block;color: #333333;font-size: 16px;line-height: 25px;}
+.app_prodect_introduce dd strong{display: block;color: #999999;font-size: 12px;line-height: 15px;font-weight: normal;}
+.app_prodect_introduce dt{width:15%;float: left;display: inline;text-align: right;color: #666666;line-height: 40px;font-size: 0.7rem;background: url(../images/jt.png) no-repeat right center;padding-right: 5%;background-size: 15px 15px;line-height:40px}
+.app_prodect_introduce dt a{display:block;color: #666;}
+
+.prodect_icon{width:40px;float: left;display: inline;height: 40px;background: url(../images/icon_list.png) no-repeat 0 0;}
+
+/**产品icon**/
+.prodect_icon.dyd{background-position: 0 0;background-size:cover;}
+.prodect_icon.mmb{background-position: 0 -40px;background-size:cover;}
+.prodect_icon.mfb{background-position: 0 -80px;background-size:cover;}
+.prodect_icon.txb{background-position: 0 -120px;background-size:cover;}
+.prodect_icon.ajb{background-position: 0 -160px;background-size:cover;}
+.prodect_icon.slb{background-position: 0 -200px;background-size:cover;}
+
+.my_report{width: 100%;float: left;display: inline;height: 50px;border-bottom: 1px solid #bbbbbb;background: #FFF;}
+.my_report span{width: 50%;float: left;display: inline;text-align: center;line-height: 50px;color:#666666;font-size: 0.8rem;position: relative;}
+.my_report span a{color: #666;display: block;}
+.my_report span .onTab{border-bottom: 3px solid #ff7200;width: 5em;position: absolute;left: 50%;bottom: -1px;z-index: 1;margin-left: -2.5em;}
+.my_report_list{width: 100%;float: left;display: inline;background: #f2f2f2;padding-bottom: 20px;}
+.my_report_list_inf{width: 80%;padding:15px 5%;margin:20px 5% 0 5%;float: left;display: inline;border-radius: 4px;-webkit-border-radius:4px ;background: #FFF;box-shadow: 0 2px 5px #d6d6d6;-webkit-box-shadow: 0 2px 5px #d6d6d6;}
+.my_report_list_inf dl{width: 100%;float: left;display: inline;}
+.my_report_list_inf dl dd{border-bottom: 1px solid #dddddd;width: 100%;float: left;display: inline;padding-bottom: 10px;}
+.my_report_list_inf dl dd p{width: 96%;float: left;display: inline;color: #333333;line-height: 1rem;font-size: 0.7rem;padding:3px 2%;}
+.my_report_list_inf dl dd p b{font-weight:normal;color: #999;padding-right: 15px;width: 4em;float:left;display: inline;}
+.my_report_list_inf dl dt{width: 100%;float: left;display: inline;margin-top: 10px;}
+.my_report_list_inf dl dt b{font-weight: normal;float: left;background: #ff7200;border-radius: 4px;-webkit-border-radius:4px ;padding: 0 10px;color: #FFF;font-size: 0.7rem;line-height: 1.2rem;}
+.my_report_list_inf dl dt b a{display: block;color: #fff;}
+
+
+.app_Pop{width: 100%;height: 100%;float: left;display: inline;position: fixed;z-index: 888;left: 0;top: 0;}
+.popBg{width: 40%;height: 80px;float: left;display: inline;position: fixed;z-index: 889;left: 30%;top:50%;margin-top: -60px;background: #000;filter:alpha(opacity=70);opacity: 0.7;border-radius: 6px;-webkit-border-radius: 6px;text-align: center;}
+.inf_sucess{width: 80%;height: 80px;float: left;display: inline;position: fixed;z-index: 890;padding: 10px 0 10px 0;left: 10%;top:50%;margin-top: -60px;}
+
+.suce_icon{width:100%;float:left;display:inline;text-align:center;}
+.suce_icon img{width:40px;}
+.inf_sucess strong{font-size: 18px;line-height: 24px;color: #fff;display: block;font-weight:normal;width:100%;text-align:center;}
+.fail_icon{background:url(../images/x_03.png) no-repeat 0 0;padding-left:32px;font-size: 18px;line-height: 32px;color: #fff;font-weight: bold;background-size: contain;font-family: "微软雅黑";}

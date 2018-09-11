@@ -1,0 +1,119 @@
+/*ҵ�񹤾�-������*/
+
+
+.cal-cont {
+    position: relative;
+    width: 880px;
+    margin: 0 auto 20px;
+    padding: 0 20px 30px 0;
+    border: 1px solid #E6E6E6;
+    background: #FCFCFC url(../../images/v1.0/d_bg1.jpg) 0 0 repeat-y;
+    color: #333;
+    overflow: hidden;
+}
+
+.cal-cont img.tip3 {
+    position: absolute;
+    top: 212px;
+    left: 449px;
+}
+
+.cal-cont .tips1 {
+    width: 440px;
+    text-align: center;
+    color: #999;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cal-cont .tips2 {
+    width: 400px;
+    margin: 40px auto;
+    padding-top: 10px;
+    border-top: 1px solid #EFEFEF;
+    color: #afaeae;
+}
+
+.cal-cont .fl {
+    width: 449px;
+}
+
+.cal-cont h3 {
+    padding-left: 52px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+.cal-cont tr {
+    height: 33px;
+}
+
+.cal-cont input.t-input {
+    padding-left: 8px;
+    margin-right: 3px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #D1D1D1;
+}
+
+.cal-cont input.t-input2 {
+    padding-left: 8px;
+    width: 146px;
+    margin-right: 3px;
+    height: 22px;
+    color: #ff6600;
+    line-height: 22px;
+    border: 1px solid #D1D1D1;
+}
+
+.cal-cont textarea {
+    padding-left: 8px;
+    height: 170px;
+    width: 160px;
+    color: #ff6600;
+    overflow-y: scroll;
+    line-height: 22px;
+    border: 1px solid #D1D1D1;
+    resize: none;
+}
+
+.cal-cont select {
+    padding-left: 5px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #D1D1D1;
+}
+
+.cal-cont .fr {
+    width: 400px;
+}
+
+
+/*ҵ�񹤾�--���ӵ�ͼ*/
+
+.tool_emap_wrap{
+    padding: 10px;
+    height: 788px;
+    background: paleturquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

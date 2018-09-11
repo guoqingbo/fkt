@@ -1,0 +1,33 @@
+/* css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}
+table{border-collapse:collapse;border-spacing:0;font-size: inherit;font:100%;}
+caption,th{text-align:left;}
+fieldset,img{border:none;vertical-align:top;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+sup,sub{font-size:100%;vertical-align:baseline;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after {content: '';content: none;}
+input,button,textarea,select{font-family: inherit;font-size: inherit;font-weight: inherit;vertical-align:middle;*font-size:100%;}
+address,caption,cite,code,dfn,em,i,b,strong,th,var,optgroup{font-style:normal;font-weight:normal;}
+small{font-size:100%;}
+/*common style--------------------------------------------------------------------------*/
+hr{color:#D1D7DC;background-color:#D1D7DC;border:none;height:1px;}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+/*website link--------------------------------------------------------------------------*/
+a{text-decoration:none;color:#444444}
+a:hover{text-decoration:underline;}
+
+.checkboxlist li{float:left;margin-top:5px;margin-left:5px;font-weight:bold}
+.checkboxlist li input[type="checkbox"]{margin:5px;}
+
+
+#loading{z-index:1000;height:30px;line-height:30px;text-align:center;
+background:#F30;top:40px;right:1px;padding-left:20px;padding-right:20px;color:#fff;position:fixed !important;position:absolute;opacity:0.8;-moz-opacity:0.8;filter:alpha(opacity=80);}

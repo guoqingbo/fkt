@@ -1,0 +1,16 @@
+.pop_no_q_up .up_inner .text-wrap{
+    padding-bottom: 15px;
+}
+.pop_no_q_up .up_inner .text-wrap table{
+    margin: 0 auto;
+}
+.pop_no_q_up .up_inner .text-wrap table td.msg{
+    text-align: left;
+    padding-left: 10px;
+}
+/* 404 */
+.page404, .page_lock{height:100%; width:100%; background:#fff url(../../images/v1.0/404.jpg) center 130px no-repeat;}
+.page_lock{background-image:url(../../images/v1.0/lock.jpg);}
+.page-inner{ margin:30px auto 0; width:642px; height:300px; position:relative; padding-top:130px;}
+.page404 .btn-blv, .page_lock .btn-blv{position:absolute; left:335px; top:301px;}
+.page404 .btn-blv-right, .page_lock .btn-blv-right{left:457px;}

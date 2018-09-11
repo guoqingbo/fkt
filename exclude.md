@@ -1,0 +1,9 @@
+*.md
+.idea
+*.iml
+.gitignore
+.editorconfig
+init-config/job
+init-config/sqldata
+*.tar.gz
+bin

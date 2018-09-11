@@ -1,0 +1,249 @@
+/********* base *********/
+html{font-size:16px;min-height:100%;}
+body{ font-family:"Hiragino Sans GB", Helvetica, sans-serif, "Microsoft Yahei"; color:#666;font-family:"Microsoft Yahei";-webkit-appearance: none;}
+input,button{-webkit-appearance: none;}
+.body_index_bg{background:#38113e;}
+.body_apply_bg{background:url(../images/mortgage/apply_footer_10.png) no-repeat bottom center #fafafa;width:100%;height:100%;float:left;display:inline;background-size:90%;}
+.hidden{height:100%; overflow:hidden;}
+figure{margin:0;padding:0;list-style:none;}
+/* box */
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.pt20{padding-top:20px;}
+.pb10{padding-bottom:10px;}
+.mr5{margin-right:5px;}
+.mr20{margin-right:20px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mt-1{margin-top:-1px;}
+.center{text-align:center;}
+/* color */
+.f999{color:#999;}
+.f333, .ui-list-info p.f333{color:#333;}
+.fff{color:#fff;}
+.f9a9a9a{color:#9a9a9a;}
+.fec6c00{color:#ec6c00;}
+.fea3333{color:#ea3333;}
+.f60{color:#f60;}
+
+/* font */
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f15{font-size:15px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+
+.ui-searchbar input{font-size:12px;}
+
+/********* 首页 *********/
+
+.dydk_index{width:750px;margin:0 auto;}
+.dydk_index_head{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_head img{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_inf{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_inf img{width:100%;height:auto;float:left;display:inline;}
+.dydk_index_us{width:100%;height:auto;float:left;display:inline;padding-bottom:3.5rem;}
+.dydk_index_us dd{ display:block;text-align:center;}
+.dydk_index_us dd img{width:100%;}
+.dydk_index_us dt{ display:block;text-align:center;padding-top:10px;}
+.dydk_index_us dt span{ width:25%;float:left;display:inline;overflow:hidden;text-align:center;}
+.dydk_index_us dt span img{width:4rem;}
+.dydk_index_us dt span b{width:100%;height:auto;font-size:0.75rem;line-height:1.5rem;color:#FFF;font-family:"Microsoft YaHei";display:block;}
+.dydk_index_us dt span p{width:100%;height:auto;font-size:0.5rem;line-height:1rem;color:#FFF;font-family:"Microsoft YaHei";display:block;opacity:0.7;filter:(opacity=70);}
+
+.dydk_index_footer{width:100%;height:2.5rem;background:url(../images/mortgage/app_bj_06.png)  repeat;float:left;display:inline;overflow:hidden; position:fixed;bottom:0;left:0;z-index:999}
+
+.dydk_index_footer_btn{width:100%;height:2.5rem;float:left;display:inline;background:#ff7200;text-align:center;line-height:2.5rem;font-size:1rem;color:#FFF;cursor:pointer;line-height:2.5rem;}
+.dydk_index_footer_btn a{display:block;color:#FFF;}
+.dydk_apply_tel{width:100%;height:auto;float:left;display:inline;}
+.dydk_apply_title{display:block;padding-top:5%;}
+.dydk_apply_title img{float:left;padding-left:5%;width:1rem;}
+.dydk_apply_title p{float:left;display:inline;padding-left:8px;font-size:0.75rem; color:#999999;font-family:"Microsoft YaHei", Arial;}
+.dydk_apply_inf{width:100%;height:auto;float:left;display:inline;background:#FFF;margin-top:1rem;border-top:1px solid #dcdcdc;}
+.dydk_apply_inf dd{width:90%;height:1.5rem;float:left;display:inline;border-bottom:1px solid #dcdcdc;padding:0.75rem 5%;line-height:1.5rem;font-size:0.85rem;overflow:hidden;}
+.dydk_apply_inf dt{width:90%;height:1.5rem;float:left;display:inline;border-bottom:1px solid #dcdcdc;padding:0.75rem 5%;line-height:1.5rem;font-size:0.85rem;overflow:hidden;}
+.dydk_apply_inputTel[type="tel"]{width:100%;height:1.5rem;border:none;line-height:1rem;color:#333;font-family:arial,"Microsoft YaHei", Arial;font-size:0.85rem;-webkit-appearance: none;}
+.dydk_apply_inputTel,.dydk_apply_inputInput{color:#333;font-family:"Microsoft YaHei"; background: none;}
+.dydk_apply_inputInput[type="text"]{width:100%;height:1.5rem;border:none;line-height:1.5rem;color:#333;font-family:"Microsoft YaHei", Arial;font-size:0.85rem;-webkit-appearance: none;}
+.dydk_apply_yzm{border:1px solid #ff7200;color:#ff7200;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;height:1.5rem;padding:0 5px;text-align:center;font-size:0.75rem;}
+
+.dydk_apply_submit[type="submit"]{width:90%;margin:5%;background:#ffbf8b;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;font-size:1rem;color:#FFF;text-align:center;line-height:2.5rem;float:left;display:inline;border:none;-webkit-appearance: none;font-family:"Microsoft YaHei", Arial;}
+.dydk_apply_submit.Onhover{background:#ff7200;-webkit-appearance: none;}
+.dydk_apply_zx{width:100%;height:auto;float:left;display:inline;text-align:center;color:#999999;line-height:2rem;font-size:0.8rem;font-family:"Microsoft YaHei",arial;}
+.dydk_apply_inf_sex{float:left;display:inline;border:1px solid #ff7200; color:#ff7200;line-height:1.5rem;margin-top:0;font-size:0.75rem;width:2.5em;text-align:center;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;position:relative;z-index:6;}
+.dydk_apply_inf_sex_div{position:absolute;top:0;background:#ff7200;height:1.5rem;width:2.2em;padding:1px 0 0 0;z-index:2;left:0;}
+
+.leftBorder{border-right:none;border-top-left-radius:5px;border-bottom-left-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topleft:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;}
+
+.rightBorder{border-left:none;border-top-right-radius:5px;border-bottom-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topright:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomright:5px;}
+
+.dydk_apply_inf_sex.curSex{color:#FFF;}
+.dydk_apply_pos{position:relative;float:left;display:inline;}
+
+.dydk_apply_inf_sex_div.dydk_apply_inf_LR{animation:0.3s LeftR ease-in both;-moz-animation:0.3s LeftR ease-in both;-webkit-animation:0.3s LeftR ease-in both;-o-animation:0.3s LeftR ease-in both;}
+.dydk_apply_inf_sex_div.dydk_apply_inf_RL{animation:0.3s RightL ease-in both;-moz-animation:0.3s RightL ease-in both;-webkit-animation:0.3s RightL ease-in both;-o-animation:0.3s RightL ease-in both;}
+.dydk_apply_inf_pop{width:60%;height:auto;padding:30px 5%;background:#FFF;position:fixed;left:15%;top:35%;z-index:100;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;display:none;}
+.dydk_apply_inf_pop_mask{width:100%;height:100%;background:#000;filter:(opacity=60);opacity:0.6;position:fixed;z-index:99; display:none;}
+.dydk_apply_inf_pop_con{width:100%;height:auto;float:left;display:inline;}
+.dydk_apply_inf_pop_con dd{width:100%;float:left;display:inline;text-align:center;}
+.dydk_apply_inf_pop_con dd img{width:1rem;height:1rem;line-height:1rem;vertical-align: middle;}
+.dydk_apply_inf_pop_con dd  b{line-height:1rem;font-family:"微软雅黑";color:#666666;font-size:0.9rem;}
+
+.dydk_apply_inf_pop_con dt{width:100%;float:left;display:inline;text-align:center;font-size:0.75rem;color:#666666;line-height:1.5rem;font-family:"微软雅黑";}
+
+
+
+/**买卖宝2016-09-07 by zwsvane**/
+.zws_mmb_position{position:relative;}
+.zws_mmb_position_a{position:absolute;}
+
+body.zws_mmb_bg{background:url(../images/mmb/index_bg.jpg) no-repeat bottom;background-size:cover;height:100%;display:inline-block;}
+
+.dydk_index_inf img.zws_mmb_title{width:55%;max-width:463px;left:10%;top:10%;z-index:44;}
+.zws_mmb_inf{width:90%;display:block;left:5%;bottom:5.5%;z-index:44;}
+.zws_mmb_inf p{width:100%;float:left;display:inline;font-size:12px;line-height:18px;padding-bottom:5px;color:#767777;}
+.zws_mmb_inf p b{color:#c6544b;font-weight:normal;}
+.dydk_index_footer_btn.zws_mmb_apply{width:100%;margin:0;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;height:3rem;line-height:3rem;}
+
+
+/**信用贷**/
+.dydk_apply_title.zws_credit{padding-top:0;}
+
+.zws_credit_bg{background: #fafafa;}
+.zws_credit_city{position: relative;}
+.zws_card_jt{position: absolute;right: -10px;bottom: 6px;line-height: 1rem;font-weight: normal;color: #b4b4b4;}
+
+
+/*css3分栏处理*/
+#clumn{display:-webkit-box;display:-moz-box;display:box;}
+#clumn1{width:4em;}
+#clumn2{-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;}
+#clumn3{width:6em;}
+#clumn4{width:5em;}
+#clumn5{width:1.5em;}
+#clumn6{width:5em;}
+/* header */
+
+
+@keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-webkit-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-moz-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-ms-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-moz-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+@-o-keyframes LeftR {
+ 0%{left:2.2em;}
+ 100%{left:0}
+}
+
+
+@keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-webkit-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-moz-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em;}
+}
+
+@-ms-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-moz-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+@-o-keyframes RightL {
+ 0%{left:0;}
+ 100%{left:2.2em}
+}
+
+
+@media screen and (max-width:750px) {
+    .dydk_index{width:100%;}
+}
+
+
+
+.city_select{width:96%;font-size:0.85rem;color:#333;border:none;font-family:"Microsoft YaHei";-webkit-appearance: none;background:url(../images/jt_03.jpg) no-repeat right center;}
+
+
+
+
+/**房速融介绍页**/
+.zws_fsr_safe{width: 100%;float: left;display: inline;margin-top: 20px;}
+.zws_fsr_safe label{width: 33.33333%;float: left;display: inline;text-align: center;}
+.zws_fsr_safe label img{width: 50%;float: left;display: inline;margin-left: 25%;}
+.zws_fsr_safe label p{display: block;color: #333333;font-size:1rem;line-height: 1.5rem;text-align: center;width: 100%;float: left;font-family: "微软雅黑";}
+.zws_fsr_indroduce{width: 90%;padding: 0 5%;float: left;display: inline;padding-top: 15px;}
+.zws_fsr_indroduce label{width: 100%;float: left;display: inline;margin-bottom: 15px;}
+.zws_fsr_indroduce label b{width: 100%;float: left;display: inline;font-size: 0.7rem;line-height: 1.4rem;color: #333333;font-family: "微软雅黑";}
+.zws_fsr_indroduce label p{width: 100%;float: left;display: inline;font-size: 0.6rem;line-height: 1.25rem;color: #666666;font-family: "微软雅黑";}
+
+.zws_fsr_footer{width: 100%;height: 3rem;float: left;display: inline;}
+
+
+
+
+/**房速卖css2016-10-25**/
+.dydk_apply_inf.zws_fsm_style{border-top: none;margin-top: 0;}
+
+
+
+/**苏州金融**/
+.body_apply_bg.sz_jr_bg{background: none;}
+#clumn1.sz_jr_W{width: 5em;;}
+.index.sz_jr_bg{background: none;}
+.dydk_index_us dt span b.fontColor{color: #000;font-size: 0.9rem;font-weight: normal;}
+.sz_jr_apply_detial{width:90%;float: left;display: inline;padding: 0 5%;margin-bottom: 3.5rem;}
+.sz_jr_apply_detial dd{width: 100%;height: 60px;float: left;display: inline;position: relative;}
+.sz_jr_apply_detial dd p{width: 100%;float:left;border-bottom: 1px solid #dbdbdb;position: absolute;z-index: 2;left: 0;top: 30px;}
+.sz_jr_apply_detial dd b{font-size: 1rem;line-height: 60px;position: absolute;z-index: 10;left: 50%;top: 0;margin-left: -4em;background: #FFF;padding: 0 1em;color: #333333;}
+.dydk_index_us.clearBottom{padding-bottom: 0.5rem;}
+.sz_jr_apply_detial dt{width: 100%;float: left;display: inline;font-size: 0.6rem;color: #666666;line-height:1.3rem}
+.sz_jr_apply_detial dt p{width: 100%;float: left;display: inline;text-align: center;}
+.sz_jr_apply_detial dt p b{background: url(../images/sz/tel_19.png) no-repeat left center;line-height: 60px;font-size: 0.6rem;color: #666666;padding-left: 1.5rem;background-size:contain;font-weight: normal;padding-top:5px;padding-bottom:5px;}
+.sz_jr_apply_detial dd  strong{font-size:0.7rem;line-height:1rem;color:#333;}
+.sz_jr_apply_detial dd.resetH{height:auto;}
+.sz_jr_apply_detial dt.paddingH{padding-bottom:20px;}
+
+/**app金融详情页**/
+.dydk_index_us dt.app_jr_deitla{}
+.dydk_index_us dt.app_jr_deitla span{width:33.3333%}
+
+.app_Pop{width: 100%;height: 100%;float: left;display: inline;position: fixed;z-index: 888;left: 0;top: 0;}
+.popBg{width: 40%;height: 80px;float: left;display: inline;position: fixed;z-index: 889;left: 30%;top:50%;margin-top: -60px;background: #000;filter:(opacity=70);opacity: 0.7;border-radius: 6px;-webkit-border-radius: 6px;text-align: center;}
+.inf_sucess{width: 80%;height: 80px;float: left;display: inline;position: fixed;z-index: 890;padding: 10px 0 10px 0;left: 10%;top:50%;margin-top: -60px;}
+
+.suce_icon{width:100%;float:left;display:inline;text-align:center;}
+.suce_icon img{width:40px;}
+.inf_sucess strong{font-size: 18px;line-height: 24px;color: #fff;display: block;font-weight:normal;width:100%;text-align:center;}
+.fail_icon{background:url(../images/x_03.png) no-repeat 0 0;padding-left:32px;font-size: 18px;line-height: 32px;color: #fff;font-weight: bold;background-size: contain;font-family: "微软雅黑";}

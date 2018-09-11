@@ -1,0 +1,1126 @@
+@charset "UTF-8";
+/*
+rem
+ */
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, input, button, textarea, ul, ol, li, dl, dt, dd, div, img, form, p, iframe {
+  padding: 0;
+  margin: 0; }
+html{
+  font-family: '宋体';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+img, input, button {
+  border: none; }
+
+input, button {
+  -webkit-appearance: none; }
+
+li {
+  list-style: none; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+img{
+  display: block;
+}
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.wrapper{
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.jr{
+  width: 98%;
+}
+.jr_ad img{
+  width:100%;
+}
+.jr_main{
+  margin-top: 5px;
+}
+.jr_aj,
+.jr_dy{
+  display: block;
+}
+.jr_aj{
+  float:left;
+}
+.jr_dy{
+  float:right;
+}
+.jr_aj img{
+  width:100%;
+}
+.jr_dy img{
+    width:100%;
+}
+.jr_main span{
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  background: rgb(192,192,192);
+  cursor: pointer;
+  cursor: hand;
+}
+.jr_main .now{
+  background: rgb(29,198,128);
+}
+
+
+/*申请资料*/
+.ajd{
+  width: 1221px;
+}
+.ajd_information h2{
+  height: 30px;
+  line-height: 30px;
+  background: rgb(193,144,93);
+  text-align: center;
+  color: #fff;
+  margin-top: 1px;
+  font-size: 14px;
+}
+.ajd_form_main{
+  margin-top: 1px;
+  height: 55px;
+  padding-left: 23px;
+  padding-top: 25px;
+  background: rgb(250,250,250);
+}
+.form_lou{
+  margin-left: 25px;
+}
+.form_vv .input_main{
+    position: relative;
+    float:left;
+   display: inline;
+}
+.form_vv input{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid rgb(221,221,221);
+}
+.form_vv input:focus{
+    border: none;
+}
+.form_vv label,.ajd_form_main span{
+    float:left;
+    height: 26px;
+    line-height: 26px;
+}
+.ajd_form_main label{
+
+}
+.form_vv{
+    float:left;
+    font-size: 12px;
+}
+.form_name input{
+    width: 130px;
+}
+.form_address input{
+    width: 270px;
+}
+.form_lou input,
+.form_ceng input,
+.form_dan input,
+.form_all input,
+.form_shou input{
+    width: 50px;
+}
+.form_name .input_main,
+.form_address .input_main{
+    margin-left: 7px;
+    position: relative;
+}
+.form_name .input_main{
+    width: 132px;
+    height:26px ;
+}
+.buy_name .input_main,
+.buy_phone .input_main{
+    width: 129px;
+    height:26px ;
+}
+.form_name .input_main{
+    width: 132px;
+    height:26px ;
+}
+.form_address .input_main{
+    width: 272px;
+    height:26px ;
+}
+.form_lou .input_main,
+.form_ceng .input_main,
+.form_dan .input_main,
+.form_all .input_main,
+.form_shou .input_main{
+    width: 52px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.errormsg{
+    position: absolute;
+    top: 30px;
+    width: 400px;
+    font-size: 14px;
+    color: red;
+}
+
+.form_address{
+  margin-left: 25px;
+}
+.form_all,
+.form_shou{
+
+  margin-left: 20px;
+}
+
+/*买房*/
+.ajd_buy{
+  margin-top: 8px;
+  background: rgb(250,250,250);
+}
+.ajd_buy h2{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background: rgb(218,121,121);
+  font-size: 14px;
+}
+.form_av{
+  float:left;
+  font-size: 12px;
+  height: 26px;
+  line-height: 26px;
+}
+.form_av label,
+.form_av input,
+.form_av span{
+  float:left;
+}
+.form_av span{
+
+}
+.bv{
+    position: relative;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: url(../../images/v1.0/finance/fjr_radio.jpg) no-repeat;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+.bot{
+  width: 14px;
+  height: 14px;
+}
+.checked{
+  background: url(../../images/v1.0/finance/fjr_dot.jpg) center no-repeat;
+}
+.form_av input{
+  display: block;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+}
+.buy_name label,
+.buy_sex label,
+.buy_phone label{
+  float: left;
+}
+.buy_information{
+  padding-left: 23px;
+  padding-top: 24px;
+}
+.buy_information label,
+.form_av span{
+  margin-right: 7px;
+}
+.buy_name{
+  margin-right: 23px;
+}
+.buy_sex{
+  margin-right: 34px;
+}
+.buy_information .ajd_man{
+  margin-right: 16px;
+}
+.ajd_buy h3{
+  font-size: 14px;
+  padding-left: 23px;
+  margin-top: 37px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(231,231,231);
+}
+.ajd_buy h3 strong{
+  font-style: normal;
+  color: red;
+}
+.ajd_buy h3 span{
+  font-size: 12px;
+  color: rgb(160,160,160);
+}
+.add_photo{
+  width: 1182px;
+  padding-left: 23px;
+  padding-top: 23px;
+  padding-bottom: 29px;
+}
+.add_lef{
+  float: left;
+  width: 574px;
+  padding-right: 15px;
+  border-right: 1px solid rgb(214,214,214);
+}
+.add_right{
+  float: right;
+  width: 575px;
+}
+.bt_add{
+  float: left;
+  width: 98px;
+  height: 73px;
+  background: #fff;
+
+  cursor: pointer;
+}
+.bt_add_hover{
+
+}
+.bt_add P{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.add_plus,
+.add_plus_hover
+{
+  display: block;
+  width: 36px;
+  height: 34px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+.add_plus{
+  background: url("../../images/v1.0/finance/fjr_add2.jpg") no-repeat;
+}
+.add_plus_hover{
+  background: url("../../images/v1.0/finance/fjr_add.jpg") no-repeat;
+}
+.photo_nums{
+  position: relative;
+  float: right;
+  width: 464px;
+  height: 75px;
+}
+.add_li{
+  position: relative;
+  height: 100px;
+  margin-bottom: 13px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed rgb(214,214,214);
+}
+.add_li .wz{
+    position: absolute;
+    width: 98px;
+    text-align: center;
+    left: 0;
+    bottom: 14px;
+    font-size: 12px;
+}
+.go_left,
+.go_right{
+  position: absolute;
+  display: none;
+  top:0;
+  width: 12px;
+  height: 75px;
+  background: rgb(245,245,245);
+  cursor: pointer;
+}
+.go_hovers{
+  background: rgb(235,235,235);
+}
+.go_left{
+  left:0;
+}
+.go_right{
+  right:0;
+}
+.outer_num{
+  position: relative;
+  width: 430px;
+  height: 75px;
+  overflow: hidden;
+  margin-left: 17px;
+}
+.go_left em,
+.go_right em{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.go_left em{
+  background: url(../../images/v1.0/finance/fjr_row_right.jpg) center no-repeat;
+}
+.go_right em{
+  background: url(../../images/v1.0/finance/fjr_row_left.jpg) center no-repeat;
+}
+.inner_num .img_list{
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+  overflow: hidden;
+
+}
+.inner_num{
+  width: 2200px;
+  position: absolute;
+  left:0;
+  top:0;
+
+}
+.img_list .bt_delete{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/v1.0/finance/fjr_del.gif) no-repeat;
+}
+.bt_delete{
+  display: none;
+  cursor: pointer;
+}
+
+.ajd_mai h2{
+  background: rgb(246,163,74);
+}
+.ajd_submit{
+  display: block;
+  width: 145px;
+  height: 33px;
+  line-height: 33px;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: url(../../images/v1.0/finance/fjr_btn.jpg) center no-repeat;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.add_li_bot{
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.check_big_photo{
+    position: absolute;
+  width: 880px;
+  height: 520px;
+    left:50%;
+    top: 50%;
+    margin:-260px 0 0  -440px;
+  background: rgb(242,242,242);
+}
+.check_big_photo h2{
+  position: relative;
+  padding-left: 13px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  color: #fff;
+  background: rgb(23,82,131);
+}
+.check_big_photo2 h2{
+    position: relative;
+    padding-left: 13px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: #fff;
+    background: rgb(23,82,131);
+}
+
+.check_big_photo .inner_show,.check_big_photo2 .inner_show{
+  width: 856px;
+  height: 439px;
+  margin: 0 auto;
+  background: url("../../images/v1.0/finance/wen.jpg") repeat;
+  overflow: auto;
+
+}
+.check_big_photo .inner_show img,.check_big_photo2 .inner_show img{
+  margin: 0 auto;
+}
+.check_mesg{
+  width: 856px;
+  margin: 0 auto;
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+}
+em{
+  font-style: normal;
+}
+.check_big_photo .now_name,.check_big_photo2 .now_name{
+  float: left;
+}
+.check_big_photo .choose_mains,.check_big_photo2 .choose_mains{
+  float: right;
+}
+.check_mesg span{
+  margin-left: 10px;
+}
+.check_mesg .pp1 em{
+  color: red;
+}
+.choose_prev,
+.choose_next{
+  cursor: pointer;
+  color: rgb(34,122,198);
+}
+.check_close{
+  position: absolute;
+  right: 10px;
+  top:10px;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/v1.0/finance/close.jpg) no-repeat;
+  cursor: pointer;
+}
+.bt_main{
+  width: 310px;
+  margin: 0 auto;
+}
+.bt_main .ajd_submit_re{
+  float: left;
+}
+
+.bt_main .ajd_submit_back{
+  float: right;
+  text-align: center;
+}
+.not_change{
+  display: none;
+}
+.ajd_submit2{
+  display: block;
+  width: 145px;
+  height: 33px;
+  line-height: 33px;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: url(../../images/v1.0/finance/fjr_bt2.jpg) center no-repeat;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*弹窗 信息*/
+.alert_main{
+  width: 500px;
+  height: 400px;
+}
+.alert_form {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.alert_form h3{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.jr_ddv{
+  margin-bottom: 20px;
+}
+.jr_name input,
+.jr_phone input,
+.jr_address input{
+  display: block;
+  float: right;
+  width: 200px;
+  height: 24px;
+}
+.jr_name label,
+.jr_phone label,
+.jr_address label{
+  display: block;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.alert_form .bt_sub{
+  width: 200px;
+  margin: 0 auto;
+}
+.alert_form .bt_sub button,
+.alert_form .bt_sub span{
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.alert_form .bt_sub button{
+  float: left;
+  background: green;
+}
+.alert_form .bt_sub span{
+  float: right;
+  background: #aaa;
+}
+.jr_sex_main{
+  float: right;
+  width: 200px;
+}
+.jr_sex_vv{
+  float: left;
+  display: block;
+}
+.jr_sex{
+  width: 300px;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+}
+.jr_sex label,
+.jr_sex input,
+.jr_sex span{
+  float:left;
+}
+
+.bv{
+  position: relative;
+  float: left;
+  width: 14px;
+  height: 14px;
+  background: url(../../images/v1.0/finance/fjr_radio.gif) no-repeat;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+.bot{
+  width: 14px;
+  height: 14px;
+}
+.jr_sex .bv{
+  margin-left: 10px;
+}
+.checked{
+  background: url(../../images/v1.0/finance/fjr_dot.jpg) center no-repeat;
+}
+.jr_sex input{
+  display: block;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+}
+
+/*我的客户*/
+.jr_custom{
+  width:100%;
+}
+.jr_custom .tab{
+  position: relative;
+  height: 29px;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+.jr_custom .tab span{
+  position: absolute;
+  left:0;
+  bottom: -5px;
+  display: block;
+  width: 65px;
+  height: 34px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+    color:rgb(102,102,102);
+    background: url(../../images/v1.0/finance/fjr_tab2.jpg?32) no-repeat;
+}
+.jr_table{
+  width: 100%;
+  margin-top: 16px;
+  border-top: 1px solid rgb(230,230,230);
+  border-left: 1px solid rgb(230,230,230);
+  border-right: 1px solid rgb(230,230,230);
+  font-size: 12px;
+  background: rgb(230,230,230);
+}
+.jr_table td,
+.jr_table th{
+  text-align: center;
+
+}
+.jr_table th{
+  text-align: center;
+  height: 38px;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+.jr_table td{
+  text-align: center;
+  height: 44px;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+.jr_table tr{
+
+
+}
+.jr_table thead{
+  background: rgb(240,240,240);
+}
+.jr_table .color1{
+  background: rgb(252,252,252);
+}
+.jr_table .color2{
+  background: rgb(247,247,247);
+}
+.jr_table .color3{
+  color:rgb(252,107,10);
+}
+.jr_table .color4{
+  color:rgb(255,0,0);
+}
+.jr_table .color5,
+.jr_table .color5 a{
+  color:rgb(34,122,198);
+} {
+  color:rgb(34,122,198);
+}
+.jr_table .pizhun{
+  color:rgb(29,198,129);
+}
+.c_time{
+  line-height: 150%;
+}
+.jr_table span,
+.jr_table a{
+  cursor: pointer;
+}
+.bt_custom_nav{
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  background: rgb(240,240,240);
+  margin-top: 2px;
+  padding-right: 42px;
+}
+.bt_custom_nav a{
+  color: rgb(34,122,198);
+  cursor: pointer;
+    padding-left: 15px;
+}
+.bt_custom_nav span{
+
+    padding: 10px;
+}
+.bt_custom_nav strong{
+  float: right;
+  color: rgb(51,51,51);
+  margin-left: 15px;
+}
+/*
+.bt_custom_nav .bt_custom_lead span{
+    float:left;
+}*/
+/*查看进度*/
+.check_progrss{
+  width: 660px;
+  height: 432px;
+}
+.check_progrss .inner_show{
+  position: relative;
+  width: 599px;
+  height: 364px;
+  padding-left: 39px;
+  border: 1px solid rgb(230,230,230);
+  background: #fff;
+}
+.pro_left{
+  float: left;
+  position: relative;
+  width: 81px;
+  font-size: 12px;
+  color: rgb(102,102,102);
+}
+.pro_right{
+  float: left;
+  font-size: 12px;
+  margin-left: 19px;
+}
+.pro_left .pro_bar{
+
+  display: block;
+  width: 6px;
+  height: 49px;
+  background: rgb(230,230,230);
+  margin: 0 auto;
+}
+.progress_1 .pro_left .pro_bar{
+
+  display: block;
+  width: 6px;
+  height: 96px;
+  background: rgb(230,230,230);
+  margin: 0 auto;
+}
+.progress_7 .pro_left .pro_bar{
+
+  display: block;
+  width: 20px;
+  height: 41px;
+  background: url("../../images/v1.0/finance/fjr_end_row.jpg") no-repeat;
+  margin: 0 auto;
+}
+.pro_left strong{
+  display: block;
+  width: 81px;
+  height: 24px;
+  line-height: 24px;
+  background: url("../../images/v1.0/finance/fjr_bar.jpg") no-repeat;
+  text-align: center;
+}
+.progress_1 .pro_right{
+  padding-top: 27px;
+}
+.progress_2 .pro_right,
+.progress_3 .pro_right,
+.progress_4 .pro_right,
+.progress_5 .pro_right,
+.progress_6 .pro_right,
+.progress_7 .pro_right{
+  padding-top: 5px;
+}
+.pro_right h1{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(51,51,51);
+  margin-bottom: 7px;
+}
+.pro_right p{
+  color: rgb(153,153,153);
+  margin-bottom: 7px;
+}
+.pro_right strong{
+  color: rgb(204,204,204);
+}
+.progress_1 .pro_left strong{
+  position: absolute;
+  top: 22px;
+}
+.progress_now .pro_left .pro_bar{
+  background: rgb(255,102,0);
+}
+
+.progress_now .pro_left strong{
+  background: url("../../images/v1.0/finance/fjr_bar_cover.jpg") no-repeat;
+}
+.progress_now .pro_left {
+  color: #fff;
+}
+.progress_now .pro_right h1{
+  color: rgb(255,0,0);
+}
+.progress_2 .pro_left strong,
+.progress_3 .pro_left strong,
+.progress_4 .pro_left strong,
+.progress_5 .pro_left strong,
+.progress_6 .pro_left strong,
+.progress_7 .pro_left strong{
+  margin-bottom: 2px;
+}
+.progress_1,
+.progress_2,
+.progress_3,
+.progress_4,
+.progress_5,
+.progress_6,
+.progress_7{
+  margin-bottom: 2px;
+}
+
+.progress_1 .success_now p,
+.progress_2 .success_now p,
+.progress_3 .success_now p,
+.progress_4 .success_now p{
+  display: none;
+}
+.progress_now .pro_left_7  .pro_bar{
+  background: url("../../images/v1.0/finance/fjr_end_ok.jpg") no-repeat;
+}
+.progress_now .success_now h1{
+  color: rgb(51,51,51);
+}
+.all_ok .progress_1,
+.all_ok .progress_2,
+.all_ok .progress_3,
+.all_ok .progress_4,
+.all_ok .progress_5,
+.all_ok .progress_6,
+.all_ok .progress_7{
+  margin-bottom: 0;
+}
+.all_ok .progress_2 .pro_left strong,
+.all_ok .progress_3 .pro_left strong,
+.all_ok .progress_4 .pro_left strong,
+.all_ok .progress_5 .pro_left strong,
+.all_ok .progress_6 .pro_left strong,
+.all_ok .progress_7 .pro_left strong{
+  margin-bottom: 0;
+}
+
+
+/*new*/
+.jr_custom .tab .tab_dyd{
+    position: absolute;
+    left: 73px;
+    bottom: -5px;
+    display: block;
+    color:rgb(102,102,102);
+    background: url(../../images/v1.0/finance/fjr_tab2.jpg?32) no-repeat;
+    cursor: pointer;
+}
+.jr_custom .tab .current{
+    color: #fff;
+    font-size: 14px;
+    background: url(../../images/v1.0/finance/fjr_tab.jpg?32) no-repeat;
+}
+.table_mains .table_vv{
+    display: block;
+}
+.table_mains .ajd_table{
+    display: block;
+}
+.table_mains .c_money{
+    color: rgb(252,107,10);
+}
+.jr_ad h2{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgb(111,150,164);
+    color: #fff;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+
+.dyds{
+    background: rgb(250,250,250);
+}
+.ajd_form_right{
+    width: 320px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+    padding-top: 27px;
+    font-size: 14px;
+}
+.ajd_form_right h1{
+    padding-left: 153px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.ajd_form_right .vvinput{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid rgb(221,221,221);
+    padding-left: 5px;
+}
+.ajd_form_right .quname input{
+    width: 130px;
+}
+.ajd_form_right .ajd_money input{
+    width: 70px;
+}
+.ajd_form_right .ajd_names input,
+.ajd_form_right .ajd_phone input{
+    width: 200px;
+}
+
+.ajd_form_right .afm{
+    margin-bottom: 17px;
+}
+.ajd_form_right .afm label,
+.ajd_form_right .afm .input_main,
+.ajd_form_right .afm span{
+    float: left;
+}
+.ajd_form_right .afm label,
+.ajd_form_right .afm span{
+    height: 24px;
+    line-height: 24px;
+}
+.ajd_form_right .afm .input_main{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+.ajd_form_right .ajd_ma{
+    padding-left: 14px;
+}
+.ajd_form_right .ermsg{
+    display: none;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 6px;
+    color: rgb(255,51,51);
+}
+
+.ajd_form_right .ajd_sex{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.ajd_form_right .ajd_sex label,
+.ajd_form_right .ajd_sex input,
+.ajd_form_right .ajd_sex span{
+    float:left;
+}
+
+.ajd_form_right .ajd_sex .bv{
+    position: relative;
+    display: inline;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: url(../../images/v1.0/finance/fjr_radio.jpg) no-repeat;
+    margin-right: 6px;
+    margin-top: 0;
+}
+.ajd_form_right .ajd_sex .bot{
+    width: 14px;
+    height: 14px;
+}
+.ajd_form_right .ajd_sex .checked{
+    background: url(../../images/v1.0/finance/fjr_dot.jpg) center no-repeat;
+}
+.ajd_form_right .ajd_sex  input{
+    display: block;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+}
+.ajd_form_right .ajd_man{
+    margin-right: 20px;
+}
+.ajd_form_right .ajd_sex span{
+    display: inline;
+    margin-right: 16px;
+}
+.ajd_form_right .afm_bt{
+    width: 145px;
+    height: 33px;
+    line-height: 3px;
+    text-align: center;
+    color: #fff;
+    background: url(../../images/v1.0/finance/fjr_btn.jpg) no-repeat;
+    font-size: 16px;
+    margin-left: 74px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.zg_pf{
+    display: none;
+    cursor: pointer;
+    cursor: hand;
+}
+.zg_pf img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    cursor: hand;
+}
+.zj_upload{
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.jr_index{
+    position: relative;
+    width: 1240px;
+    height: 563px;
+    margin: 0 auto;
+    background: url("../../images/v1.0/dyd/bg_vv.jpg") no-repeat;
+}
+.jr_index .model-1{
+    position: absolute;
+    left:141px;
+    top: 163px;
+}
+.jr_index .model-2{
+    position: absolute;
+    left:472px;
+    top: 164px;
+}
+.jr_index .model-3{
+    position: absolute;
+    left:801px;
+    top: 164px;
+}
+.jr_index a{
+    position: absolute;
+    width: 160px;
+    height: 34px;
+}
+.f_bt_dyd,
+.f_bt_zj{
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+    background: url("../../images/v1.0/dyd/bt_sq.jpg") no-repeat;
+}
+.f_bt_dyd{
+    left: 72px;
+    top: 315px;
+}
+.f_bt_zj{
+    left: 74px;
+    top: 315px;
+}
+.f_bt_xy{
+    left: 76px;
+    top: 315px;
+    display: block;
+    background: url("../../images/v1.0/dyd/bt_qd.jpg") no-repeat;
+}
+

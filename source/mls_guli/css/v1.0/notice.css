@@ -1,0 +1,18 @@
+.table-notice{padding-top:6px;}
+.table-notice td{height:39px; line-height:27px; vertical-align:top;}
+.table-notice td .input{width:435px; padding-left:3px; line-height:25px; background:#fff; border:1px solid #D1D1D1;}
+.table-notice td input.input{ height:25px;}
+
+.table-notice td textarea.input {
+    width: 616px;
+    height: 278px;
+    padding-top: 3px;
+}
+
+.table-notice td.td-left {
+    width: 90px;
+    text-align: right;
+}
+.table-notice td .error{height:33px; line-height:30px; color:#f00;}
+.table-notice td .select{height:25px; line-height:25px}
+

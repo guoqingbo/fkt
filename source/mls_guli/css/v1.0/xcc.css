@@ -1,0 +1,102 @@
+.xcc{overflow-y:scroll; position:absolute; left:0; top:0; width:100%; background:#FACF5E; font-family:"微软雅黑";}
+.xcc .inner{width:1280px; margin:0 auto;}
+#flashContent {position:absolute;top:17px;right:177px; width:510px; height:510px; }
+.kong {display:block; position:absolute;top:17px;right:177px; width:510px; height:510px; background:url(../../images/v1.0/subject/kong.png) no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/v1.0/subject/bigo.png");}
+#layer, #layer2{display:none; position:absolute; left:50%; top:55px; margin-left:-209px; width:268px; padding:118px 67px 0 83px; height:258px; background:url(../../images/v1.0/subject/bigo.png) no-repeat; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../images/v1.0/subject/bigo.png"); z-index:2000; font-family:"微软雅黑";}
+#layer h3{height:40px; line-height:40px; font-size:20px; color:#4a4a4a; text-align:center;}
+#layer p{margin-top:5px; line-height:27px; color:#c59733; font-size:14px;}
+#layer .close, #layer2 .close{position:absolute;top:29px;right:0;width:60px;height:53px; text-indent:-99999px; z-index:20003; cursor:pointer;}
+.shade{display:none; position: fixed;_position: absolute;pointer-events: auto;top: 0;left: 0;width: 100%;height: 100%;_height: expression(document.body.offsetHeight+"px"); z-index: 1989;background-color: #000;opacity: 0.3;filter: alpha(opacity=30);}
+.js_GTipsCoverWxr{background-color: #000 !important;opacity: 0.3 !important;filter: alpha(opacity=30) !important;}
+.layer-no{position: absolute;height: 108px; padding-top: 38px;background: #FDF9CD;color: #4a4a4a;top: 92px;font-size: 16px;width: 238px;left: 83px;}
+.layer-no span{color:#bc2e2f;}
+
+.xcc1{position:relative; height:385px; background:url(../../images/v1.0/subject/t2.jpg) no-repeat;}
+.xcc1 a{position:absolute; top:281px; left:673px; width:228px; height:80px; text-indent:-99999px;}
+.xcc1 a.a2{left:901px;}
+
+.xcc5{position:relative; height:285px; background:url(../../images/v1.0/subject/t5.jpg) no-repeat;}
+#marquee5 {position:absolute;top:92px;right:204px;width:200px;height:166px; overflow:hidden;}
+#marquee5 ul li {float:left; width:202px; line-height:36px; color:#333; font-size:14px; border-bottom:1px dashed #E9D78F;text-align:center}
+.xcc7{position:relative; height:269px; background:url(../../images/v1.0/subject/t7.jpg) no-repeat;}
+.xcc7 a{position:absolute;bottom:0;left:522px;width:237px;height:51px;text-indent:-99999px;}
+
+.xcc10{position:relative; height:285px; background:url(../../images/v1.0/subject/t10.jpg) no-repeat;}
+#marquee {position:absolute;top:45px;left:239px;width:850px;height:101px; overflow:hidden;}
+#marquee ul li span{float:left; width:330px; line-height:36px; color:#666; font-size:14px;}
+
+.xcc9{position:relative; height:534px; background:url(../../images/v1.0/subject/t9.jpg) no-repeat;}
+
+
+/*弹框 */
+.pop_box_g{ width:816px; height:540px; border:1px solid #175283; background:#f2f2f2;-webkit-box-shadow: 0 0 10px #a2a1a1;box-shadow: 0 0 10px #a2a1a1;display:block;}
+.pop_box_g02{ width:916px;}
+.pop_box_g03{ width:505px; height:345px;}
+.pop_box_g .hd{ height:36px; background:#175283; overflow:hidden;}
+.pop_box_g .hd .title{ color:#fff; font-size:14px; line-height:36px; float:left; font-weight:bold; padding-left:17px;}
+.pop_box_g .close_pop{ padding:2px 6px 0 0;  height:32px; width:32px; float:right; text-align:center; line-height:32px;}
+.pop_box_g .close_pop a{ font-family:Verdana, Geneva, sans-serif; display:block; width:32px; height:32px; color:#a9c8f5; text-decoration:none; -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;}
+.pop_box_g .close_pop a:hover{color:#a9c8f5; text-decoration:none; font-size:20px;}
+.pop_box_g .tab_pop_hd{ height:33px; margin-bottom:-1px; position:relative; overflow:hidden;}
+.pop_box_g .mod{ padding:10px 15px; overflow:hidden;}
+.pop_box_g .tab_pop_hd .item{ cursor:pointer; float:left; border:1px solid #e6e6e6; text-align:center; width:100px; height:31px; line-height:31px; overflow:hidden; color:#666666; background:#fafafa; margin-right:-1px;}
+.pop_box_g .tab_pop_hd .item em{color:#f90;}
+.pop_box_g .tab_pop_hd .itemOn{ background:#fff; color:#5498e0; border-bottom:none; border-top:2px solid #5498e0; font-weight:bold;}
+.pop_box_g .tab_pop_hd .itemOn em{ font-weight:bold;}
+.pop_box_g .tab_pop_mod{ padding-top:1px;border:1px solid #e7e7e7; background:#fff; overflow-x:hidden; overflow-y:scroll; height:410px; position:relative;}
+.pop_box_g .tab_pop_mod .inner{ padding:24px; display:none; }
+.pop_box_g .tab_pop_mod .inner02{ padding:10px;position:relative;}
+.pop_box_g .tab_pop_mod .t_box{border:1px solid #e8e8e8; padding:12px;}
+.pop_box_g .tab_pop_mod .table{ width:100%;}
+
+.submit {
+    display: block; margin:10px auto;
+    width: 105px;
+    height: 33px;
+    background: url(../../images/v1.0/sunmit_btn.gif) no-repeat 0 0;
+    color: #fff;
+    line-height: 33px;
+    border: none;
+}
+
+/*上传图片*/
+.upload-photo{float: left;  width:130px;  height:100px;  margin-right: 10px;  position: relative;}
+.add_item1{float:left; position:relative; margin-right:8px; margin-bottom:9px;}
+.add_item1 .fun a{display:block; position:absolute; bottom:0; *bottom:-1px; left:0; width:130px; height:20px; line-height:20px; background:#456A8A; opacity:0.9;  filter:alpha(opacity=90); text-align:center; color:#fff;}
+
+.pop_box_g .infomat{height:332px; overflow-y:auto; position:relative; padding:20px 0 20px 24px; margin:10px; background:#fff; border:1px solid #E4E4E4; color:#333;}
+.pane-out{margin-bottom:12px;}
+.infomat .pane{float:left; width:200px; margin-right:20px;}
+.infomat .pane2{width:256px;}
+.infomat label.error{display:block; color:red; padding-left: 62px;line-height:20px;}
+p.wrong{color:red; line-height: 20px;}
+.infomat select.error, .infomat .wrong-01{padding-left:0;}
+.infomat h3{height:25px;}
+.infomat .pane .txt{width:130px; height:24px; line-height:24px; padding-left:4px; border:1px solid #D1D1D1;}
+.infomat .pane2 .txt{width:186px;}
+.infomat b.label{display:block; float:left; padding-left:18px; width:180px; background:url(../../images/v1.0/checkbox2.png) 0 center no-repeat; position:relative; cursor:pointer;}
+.infomat b.label .js_checkbox{ position:absolute; left:0; top:0;filter:alpha(opacity=0);opacity:0; }
+.upload{}
+.infomat b.labelon{background:url(../../images/v1.0/checkbox_on2.png) no-repeat 0 center;}
+.label-div{padding-left:270px; margin:15px 0 20px;}
+.center{text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

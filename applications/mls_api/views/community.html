@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>更新小区经纬度</title>
+</head>
+<body>
+<div id="l-map"></div>
+<div id="r-result">
+    <input type="button" value="批量地址解析" onclick="getCommunity()"/>
+    <p id="msg"></p>
+    <div id="result"></div>
+
+</div>
+
+</body>
+</html>
+<script src="<?=MLS_SOURCE_URL ?>/min/?f=mls/js/v1.0/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4&ak=s4xTcbCABxjTGG3EfdZpQxaT"></script>
+<script type="text/javascript">
+
+    var index = 0;
+    var myGeo = new BMap.Geocoder();
+    var communityList = {};
+    function bdGEO() {
+        geocodeSearch(index);
+        index++;
+    }
+    function geocodeSearch(index) {
+        if (index < communityList.length) {
+            var add = communityList[index]['address'];
+            setTimeout(window.bdGEO, 10);
+            myGeo.getPoint(add, function (point) {
+                if (point) {
+                    document.getElementById("result").innerHTML += index + ", id:" + communityList[index]['id'] + "、" + add + " :b_map_x-" + point.lng + " ,b_map_y-" + point.lat + "</br>";
+                    //更新经纬度
+                    communityList[index]['b_map_x'] = point.lng;
+                    communityList[index]['b_map_y'] = point.lat;
+                    communityList[index]['update_res'] = 1;
+
+                } else {
+                    document.getElementById("result").innerHTML += index + ", id:" + communityList[index]['id'] + "、" + add + ":" + "未获取" + "</br>";
+                    communityList[index]['update_res'] = 2;
+                }
+//                updateCommunityByOne(communityList[index]);
+            }, "杭州市");
+        }
+        if (index == communityList.length) {
+
+            //分割数组
+            setTimeout(function () {
+                var step = 100
+                for (var i = 0, len = communityList.length; i < len; i += step) {
+                    updateCommunity(communityList.slice(i, i + step));
+                }
+
+                //写文件
+//            sFile = './tmp.txt';
+//            oFso = new ActiveXObject("Scripting.FileSystemObject");
+//            oFile = oFso.OpenTextFile(sFile,2,true); //写方式打开
+//            oFile.WriteLine(JSON.stringify(communityList));
+//            oFile.Close();
+                document.getElementById("result").innerHTML += "更新完毕" + "</br>";
+            }, 1000);
+        }
+    }
+
+    //获取小区列表
+    function getCommunity() {
+        //更新数据库
+        $.ajax({
+            url: "/community/getCommunity/",
+            type: "post",
+            dataType: "JSON",
+            success: function (data) {
+                communityList = data;
+                bdGEO();
+            }
+        });
+    }
+    //批量更新小区经纬度
+    function updateCommunity(communityList) {
+        console.log(communityList);
+        //更新数据库
+        $.ajax({
+            url: "/community/updateCommunity/",
+            data: {communityList: communityList},
+            type: "POST",
+            dataType: "JSON",
+            success: function (data) {
+
+            }
+        });
+    }
+    //单条更新小区经纬度
+    function updateCommunityByOne(community) {
+        //更新数据库
+        $.ajax({
+            url: "/community/updateCommunityByOne/",
+            data: {community: community},
+            type: "POST",
+            dataType: "JSON",
+            success: function (data) {
+
+            }
+        });
+    }
+</script>

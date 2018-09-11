@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, input, button, textarea, ul, ol, li, dl, dt, dd, div, img, form, p, iframe {
+    padding: 0;
+    margin: 0; }
+html{
+    font-family: 'Microsoft Yahei';
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px; }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%; }
+img, input, button {
+    border: none; }
+input, button {
+    -webkit-appearance: none; }
+li {
+    list-style: none; }
+a {
+    text-decoration: none; }
+img{
+    display: block;
+}
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.page1,.page2,.page3{
+    position: relative;
+}
+
+.pag1{
+    width:100%;
+    height: 728px;
+    background: url("../../images/v1.0/pc_kft/page1_new.jpg") center no-repeat;
+}
+.page2{
+    width:1400px;
+    margin:0 auto;
+}
+.page3{
+    min-width:1400px;
+    margin:0 auto;
+}
+.page1{
+    min-width:1400px;
+    margin:0 auto;
+}
+.pag2{
+    max-width:1400px;
+    height: 1848px;
+    margin:0 auto;
+    background: url("../../images/v1.0/pc_kft/page2_new2.jpg") center no-repeat;
+}
+.pag3{
+    width:100%;
+    height: 742px;
+    background: url("../../images/v1.0/pc_kft/page3_new.jpg") center no-repeat;
+}
+.page1_tit{
+    position: absolute;
+    width: 407px;
+    height: 218px;
+    left:55%;
+    top:238px;
+    background: url("../../images/v1.0/pc_kft/tit1.png") no-repeat;
+    -webkit-animation: ff 3s ease-out normal infinite;
+    -moz-animation: ff 3s ease-out normal infinite;
+    -o-animation: ff 3s ease-out normal infinite;
+    animation: ff 3s ease-out normal infinite;
+}
+.page2_tit{
+    position: absolute;
+    width: 446px;
+    height: 60px;
+    left:490px;
+    top:56px;
+    background: url("../../images/v1.0/pc_kft/tit2.png") no-repeat;
+    -webkit-animation: dd 3s ease-out normal infinite;
+    -moz-animation: dd 3s ease-out normal infinite;
+    -o-animation: dd 3s ease-out normal infinite;
+    animation: dd 3s ease-out normal infinite;
+}
+.page2_wen{
+    position: absolute;
+    width: 509px;
+    height: 332px;
+    left:450px;
+    top:90px;
+    background: url("../../images/v1.0/pc_kft/wen.png") no-repeat;
+    -webkit-animation: wen 3s ease-out normal infinite;
+    -moz-animation: wen 3s ease-out normal infinite;
+    -o-animation: wen 3s ease-out normal infinite;
+    animation: wen 3s ease-out normal infinite;
+}
+.k1{
+    position: absolute;
+    width: 183px;
+    height: 184px;
+    left:218px;
+    top:980px;
+    background: url("../../images/v1.0/pc_kft/k1.png") no-repeat;
+    -webkit-animation: ff 3s ease-out normal infinite;
+    -moz-animation: ff 3s ease-out normal infinite;
+    -o-animation: ff 3s ease-out normal infinite;
+    animation: ff 3s ease-out normal infinite;
+}
+.k2{
+    position: absolute;
+    width: 183px;
+    height: 182px;
+    right:218px;
+    top:980px;
+    background: url("../../images/v1.0/pc_kft/k2.png") no-repeat;
+    -webkit-animation: ff 4s ease-out normal infinite;
+    -moz-animation: ff 4s ease-out normal infinite;
+    -o-animation: ff 4s ease-out normal infinite;
+    animation: ff 4s ease-out normal infinite;
+}
+.k3{
+    position: absolute;
+    width: 181px;
+    height: 181px;
+    right:438px;
+    top:1224px;
+    background: url("../../images/v1.0/pc_kft/k3.png") no-repeat;
+    -webkit-animation: ff3 4s ease-out normal infinite;
+    -moz-animation: ff3 4s ease-out normal infinite;
+    -o-animation: ff3 4s ease-out normal infinite;
+    animation: ff3 4s ease-out normal infinite;
+}
+.k4{
+    position: absolute;
+    width: 182px;
+    height: 181px;
+    left:438px;
+    top:1224px;
+    background: url("../../images/v1.0/pc_kft/k4.png") no-repeat;
+    -webkit-animation: ff2 5s ease-out normal infinite;
+    -moz-animation: ff2 5s ease-out normal infinite;
+    -o-animation: ff2 5s ease-out normal infinite;
+    animation: ff2 5s ease-out normal infinite;
+}
+.ma{
+    position: absolute;
+    left:600px;
+    bottom:465px;
+    display: block;
+    width: 203px;
+    height: 206px;
+
+}
+.footer{
+    min-width:1400px;
+    margin:0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: rgb(233,233,233);
+}
+.footer a,.footer p{
+    display: block;
+    color:#515151;
+    font-size: 14px;
+}
+.footer a{
+    width: 70px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-right: 1px solid rgb(200,200,200);
+}
+.footer .last_a{ border-right:none}
+.footer ul{
+    width: 500px;
+    margin: 0 auto;
+}
+.footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer li{
+    float: left;
+}
+.page_phone{
+    position: absolute;
+    left: 65%;
+    top: 51px;
+    color: #fff;
+}
+.page_phone em{
+    float: left;
+    display: block;
+    width: 29px;
+    height: 29px;
+    background: url("../../images/v1.0/pc_kft/phone.png") no-repeat;
+}
+.page_phone strong{
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+}
+@-webkit-keyframes ff {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,10px,0);
+    }
+}
+@keyframes ff {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,10px,0);
+    }
+}
+@-moz-keyframes ff {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,10px,0);
+    }
+}
+@-webkit-keyframes dd {
+    0%,50%,100%{
+        -webkit-transform: scale(0.9);
+    }
+    25%,75%{
+        -webkit-transform: scale(1.1);
+    }
+}
+@keyframes dd {
+    0%,50%,100%{
+        -webkit-transform: scale(0.9);
+    }
+    25%,75%{
+        -webkit-transform: scale(1.1);
+    }
+}
+@-moz-keyframes dd {
+    0%,50%,100%{
+        -webkit-transform: scale(0.9);
+    }
+    25%,75%{
+        -webkit-transform: scale(1.1);
+    }
+}
+@-webkit-keyframes wen {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,20px,0) scale(0.7);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,0,0) scale(0.9);
+    }
+}
+@keyframes wen {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,20px,0) scale(0.7);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,0,0) scale(0.9);
+    }
+}
+@-moz-keyframes wen {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,20px,0) scale(0.7);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(0,0,0) scale(0.9);
+    }
+}
+@-webkit-keyframes ff2 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(-10px,10px,0);
+    }
+}
+@keyframes ff2 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(-10px,10px,0);
+    }
+}
+@-moz-keyframes ff2 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(-10px,10px,0);
+    }
+}
+@-webkit-keyframes ff3 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(10px,10px,0);
+    }
+}
+@keyframes ff3 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(10px,10px,0);
+    }
+}
+@-moz-keyframes ff3 {
+    0%,50%,100%{
+        -webkit-transform: translate3d(0,0,0);
+    }
+    25%,75%{
+        -webkit-transform: translate3d(10px,10px,0);
+    }
+}

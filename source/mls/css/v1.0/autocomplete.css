@@ -1,0 +1,26 @@
+.ui-menu {
+    background: #ffffff;
+    border: 1px solid #f5d5b8;
+    float: left;
+    border-top: none;
+    padding: 0 !important;
+!important;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.ui-menu .ui-menu-item {
+    background: none repeat scroll 0 0 #fff;
+    clear: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none
+}
+.ui-menu .ui-menu-item a {cursor: pointer;display: block;overflow: hidden;text-align: left;text-decoration: none; padding:0 4px !important; overflow:hidden; height:30px; line-height:30px !important; }
+.ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a:hover {background: #f4f4f4;text-decoration: none; margin:0 !important;}
+.ui-menu .ui-menu-item a .ui_name{ color:#ff9d11; padding-left:5px;} 
+.ui-menu .ui-menu-item a .ui_district{color:#32272c; padding-left:5px;}
+.ui-menu .ui-menu-item a .ui_address{color:#32272c; padding-left:5px;}
+.ui-helper-hidden-accessible { position: absolute; left: -9999px; }

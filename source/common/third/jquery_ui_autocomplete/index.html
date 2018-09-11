@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk">
+	<title>小区自动完成</title>
+	<link rel="stylesheet" href="themes/base/jquery.ui.all.css">
+	<script src="jquery-1.7.2.js"></script>
+	<script src="ui/jquery.ui.core.js"></script>
+	<script src="ui/jquery.ui.widget.js"></script>
+	<script src="ui/jquery.ui.position.js"></script>
+	<script src="ui/jquery.ui.autocomplete.js"></script>
+	<link rel="stylesheet" href="demos.css">
+	<script>
+	$(function() {
+		function log( message,message2 ) {
+			$("#district").val(message);
+			$("#block").val(message2);
+		}
+
+		$.ajax({
+			url: "london.xml",
+			dataType: "xml",
+			success: function( xmlResponse ) {
+				var data = $( "geoname", xmlResponse ).map(function() {
+					return {
+						value: $( "name", this ).text() + ", " +
+							( $.trim( $( "countryName", this ).text() ) || "(unknown country)" ),
+						id: $( "geonameId", this ).text()
+					};
+				}).get();
+				$( "#blockshowname" ).autocomplete({
+					source: data,
+					minLength: 1,
+					select: function( event, ui ) {
+						var message = ui.item ? ui.item.value:"Nothing selected, input was " + this.value
+						var message2 = ui.item ? ui.item.id :"Nothing selected, input was " + this.value
+						log(message,message2);
+					}
+				});
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+<div class="demo">
+	<div class="ui-widget">
+		<label for="blockshowname">小区名称: </label>
+		<input id="blockshowname" />
+	</div>
+	<div class="ui-widget" style="margin-top:2em; font-family:Arial">
+		区属：
+		<input type="text" id="district" name="district" value="">
+		板块：
+		<input type="text" id="block" name="block" value="">
+	</div>
+</div>
+</body>
+</html>

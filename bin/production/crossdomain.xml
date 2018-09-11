@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cross-domain-policy>
+<allow-access-from domain="house.cd121.com"/>
+<allow-access-from domain="house-source.cd121.com"/>
+<allow-access-from domain="house-admin.cd121.com"/>
+<allow-access-from domain="house-job.cd121.com"/>
+</cross-domain-policy>

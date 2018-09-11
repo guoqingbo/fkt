@@ -1,0 +1,20 @@
+
+.cont-h{width:920px; margin:20px auto; min-height:900px; padding-right:30px; padding-bottom:100px; border:1px solid #E4E4E4; background:#fff url(../../images/v1.0/web02/help1.png) 218px top repeat-y;}
+.left-h{float:left; width:218px;}
+.left-h dt a{display:block; height:48px; line-height:48px; padding-left:37px; border-bottom:1px solid #E4E4E4; background:url(../../images/v1.0/web02/help2.png) right top no-repeat; font-size:14px; color:#666;}
+.left-h dt a:hover{font-weight:bold;}
+.left-h dt.on a{ color:#fff; background:url(../../images/v1.0/web02/help2_2.png) right top no-repeat;}
+.left-h dd{display:none; border-bottom:1px solid #E4E4E4;}
+.left-h dd li a{display:block; height:48px; line-height:48px; padding-left:37px; color:#666;}
+.left-h dd li a:hover, .left-h dd li a.a-on{color:#fe7633; background:#FAFAFA;}
+.right-h{float:right; width:668px;}
+.right-h h3{padding-left:18px; color:#333; line-height:60px; font-size:16px; border-bottom:1px solid #E4E4E4;}
+.help-title{height:48px; line-height:48px; padding-left:18px; border-bottom:1px dashed #E4E4E4; font-weight:bold; color:#333; font-size:14px; color:#666;}
+.help-title .iconfont{float:right; text-indent:-9999px; display:block; width:48px; height:48px; background:url(../../images/v1.0/web02/help3.png) right center no-repeat; cursor:pointer;}
+.active{ color:#fe7633; background:#FAFAFA;}
+.active .iconfont{background:url(../../images/v1.0/web02/help3_3.png) right center no-repeat;}
+.content{padding:18px 10px 10px 18px; border-bottom:1px dashed #E4E4E4; line-height:26px; color:#666; }
+.content img{margin:10px 0;}
+
+
+

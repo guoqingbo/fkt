@@ -1,0 +1,31 @@
+/*left*/
+body{background:url(../../images/left-bg.jpg) repeat-y;}
+.all-data,.select-val,.nav-title,.nav-title span.running-log,.nav-title span.user-management,.nav-title span.role-management,.nav-title span.users-analyze,.nav-title span.content-analysis,.nav-title span.content-management,.nav-title span.personal-settings,.nav-list li,.nav-list li.on a,.nav-list li a,.nav-list li a:hover{ background:url(../../images/main-bg.gif) no-repeat 0 0;}
+.main-left{background:url(../../images/left-bg.jpg) repeat-y; padding-bottom:130px; width:214px;}
+.all-data{ background-position:0 -277px; height:37px; width:214px;}
+.select-city{width:169px; padding:8px 0 0 20px; position:relative;}
+.select-val{ background-position:0 0;color:#666;width:154px;padding-left:15px;height:22px; cursor:pointer; line-height:22px; overflow:hidden;}
+.select-list{ width:169px;left:20px;top:8px; position:absolute;display:none}
+.select-list span{ line-height:23px; color:#666; padding-left:15px;background:url(../../images/select-list-bg.gif) no-repeat 0 0;width:154px; height:23px; display:block;}
+.select-list-con{ background:url(../../images/select-list-c.jpg) repeat-y; width:169px;}
+.select-list-ft{background:url(../../images/select-list-bg.gif) no-repeat 0 0; background-position:0 -125px;width:169px; height:10px; display:block;}
+.select-list a{line-height:22px; padding-left:5px; margin-left:10px; border-bottom:1px solid #e5eaf2;color:#666;text-align:left; display:block; width:144px; white-space:nowrap}
+.select-list a:hover{ text-decoration:none;}
+.nav{ width:214px;}
+.nav li{ *margin-bottom:-3px;}
+.nav-title{ background-position:0 -23px; height:37px;overflow:hidden; cursor:pointer;}
+.nav-title a{ float:left; font-size:14px; font-weight:bold; color:#f2f2f2; line-height:37px;}
+.nav-title a:hover{ text-decoration:none}
+.nav-list{overflow:hidden;*margin-top:-3px;}
+.nav-list li{ background-position:0 -61px; height:36px;font-size:12px;height:36px;margin-bottom:0;}
+.nav-list li.on a{background-position:-210px -188px; background-position:-210px -190px\0;*background-position:-210px -190px;_background-position:-210px -188px; color:#ffb400;font-weight:800;}
+.nav-list li a{ background-position:-210px -131px;background-position:-210px -133px\0;*background-position:-210px -133px;_background-position:-210px -131px;  color:#e5e5e5;display:block;height:36px; line-height:36px;margin-left:46px; padding-left:10px; overflow:hidden}
+.nav-list li a:hover{ background-position:-210px -188px; background-position:-210px -190px\0;*background-position:-210px -190px;_background-position:-210px -188px; text-decoration:none;color:#ffb400}
+
+.nav-title span.running-log,.nav-title span.user-management,.nav-title span.role-management,.nav-title span.users-analyze,.nav-title span.content-analysis,.nav-title span.content-management,.nav-title span.personal-settings{ float:left; width:18px; height:22px; margin:8px 10px 0 22px; display:block;}
+.nav-title span.personal-settings{ background-position:-77px -160px;}
+.nav-title span.content-management{ background-position:-77px -181px; height:20px;}
+.nav-title span.content-analysis{ background-position:-76px -201px; height:18px;width: 20px;}
+.nav-title span.users-analyze{ background-position:-76px -222px; height:18px;}
+.nav-title span.role-management,.nav-title span.user-management{ background-position:-76px -260px; height:18px;}
+.nav-title span.running-log{ background-position:-74px -240px; height:20px;}

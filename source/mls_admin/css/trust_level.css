@@ -1,0 +1,14 @@
+/*评分等级ICON*/
+.djicon{float:left;background:url(../../mls/images/v1.0/diskicon.png) no-repeat;width:20px;height:20px;}
+.bjicon{float:left;background:url(../../mls/images/v1.0/diskicon.png) no-repeat;width:25px;height:25px;}
+.pericon{float:left;background:url(../../mls/images/v1.0/diskicon.png) no-repeat;width:25px;height:25px;}
+.per1{background-position:-50px -140px;}
+.per0{background-position:-50px -168px;}
+.bj100{background-position:-46px -35px;}
+.bj50{background-position:-73px -35px;}
+.bj0{background-position:-101px -35px;}
+.dj100{background-position:-42px -112px;}
+.dj50{background-position:-62px -112px;}
+.dj0{background-position:-82px -112px;}
+.pjper100{background-position:-19px -65px;}
+.pjper50{background-position:-19px -88px;}

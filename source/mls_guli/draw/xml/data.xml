@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<note> 
+<item src="units/swf/02.swf" intro="箭头"/>
+<item src="units/swf/01.swf" intro="门"/>
+<item src="units/swf/13.swf" intro="右侧门"/>
+<item src="units/swf/03.swf" intro="竖窗"/>
+<item src="units/swf/14.swf" intro="横窗"/>
+<item src="units/swf/16.swf" intro="阳台"/>
+<item src="units/swf/18.swf" intro="弧形阳台"/>
+<item src="units/swf/19.swf" intro="楼梯"/>
+</note>

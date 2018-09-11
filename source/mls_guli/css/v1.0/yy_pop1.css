@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*
+rem
+ */
+html, body, p, h1, h2, h3, h4, h5, h6, table, tr, td, input, button, textarea, ul, ol, li, dl, dt, dd, div, img, form, p, iframe {
+  padding: 0;
+  margin: 0; }
+html{
+  font-family: 'Microsoft YaHei';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+img, input, button {
+  border: none; }
+
+input, button {
+  -webkit-appearance: none; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+img{
+  display: block;
+}
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.kft_alert{
+  width: 540px;
+  height: 380px;
+  background: rgb(242,242,242);
+}
+.alert_head{
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  background: rgb(23,82,131);
+  padding-left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.alert_head .kft_aler_close{
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 15px;
+  top: 10px;
+  background: url(../../images/v1.0/yy_pop/close.jpg) no-repeat;
+  cursor: pointer;
+}
+.alert_con{
+  padding: 12px;
+}
+.alert_main{
+  width: 488px;
+  padding: 0 13px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(221,221,221);
+  background: #fff;
+  padding-top: 12px;
+  font-size: 14px;
+    overflow: hidden;
+}
+.alert_main h2{
+  width: 476px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 12px;
+  border: 1px solid rgb(236,236,236);
+  background: rgb(250,250,250);
+  font-size: 12px;
+}
+.choose_all_point{
+  position: relative;
+    padding-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-size: 12px;
+    color: rgb(153,153,153);
+}
+.all_check_bt{
+  position: absolute;
+  right: 3px;
+  top:0px;
+}
+.new_checkbox{
+    display: inline-block;
+}
+.new_checkbox .ccv{
+  display: inline;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  background: url(../../images/v1.0/yy_pop/ck_n.gif) no-repeat;
+  margin-top: 2px;
+}
+.new_checkbox .choose_check{
+  background: url(../../images/v1.0/yy_pop/ck_c.gif) no-repeat;
+}
+.new_checkbox .ccv input{
+  display: inline-block;;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  filter: alpha(opacity = 0);
+  cursor: pointer;
+}
+.new_checkbox label{
+  float: left;
+    display: inline-block;
+  font-size: 12px;
+    color: rgb(34,122,198);
+}
+.choose_all_point label{
+    color: #666;
+}
+.new_checkbox img{
+  float: left;
+  display: inline;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  margin-right: 3px;
+}
+
+.choose_point .new_checkbox{
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 8px;
+}
+.choose_point{
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(236,236,236);
+}
+.wx_notice{
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgb(153,153,153);
+}
+.wx_notice p{
+  margin-bottom: 3px;
+  line-height: 150%;
+}
+.wx_notice h3{
+  margin-bottom: 5px;
+  padding-left: 18px;
+  color: rgb(222,177,113);
+  background: url(../../images/v1.0/yy_pop/nt_bar.gif) left center no-repeat;
+}
+.kft_alert_bt button{
+  display: block;
+  width: 74px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: url(../../images/v1.0/yy_pop/bt_bg.jpg);
+  cursor: pointer;
+}

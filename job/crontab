@@ -1,0 +1,67 @@
+###########################mls_stat_job##############################
+1 1 * * * /var/www/fkt/job/mls_stat_job/collect_stat.sh > /dev/null 2>&1                             #每日房源统计，采集
+3 1 * * * /var/www/fkt/job/mls_stat_job/collect_view_stat.sh > /dev/null 2>&1                        #刷新每日房源查看量
+6 1 * * * /var/www/fkt/job/mls_stat_job/group_publish_stat.sh > /dev/null 2>&1                       #采集统计
+9 1 * * * /var/www/fkt/job/mls_stat_job/login_stat.sh > /dev/null 2>&1                               #当日登录量
+12 1 * * * /var/www/fkt/job/mls_stat_job/publish_stat.sh > /dev/null 2>&1                            #统计每日房源发布量
+15 1 * * * /var/www/fkt/job/mls_stat_job/broker_app_count_stat.sh > /dev/null 2>&1                   #统计APP数据
+17 1 * * * /var/www/fkt/job/mls_stat_job/broker_stat.sh > /dev/null 2>&1                             #统计
+25 1 * * * /var/www/fkt/job/mls_stat_job/dist_stat.sh > /dev/null 2>&1                               #区域统计
+
+################################mls_stat_job####################################
+30 1 * * * /var/www/fkt/job/mls_stat_job/broker_operate_stat.sh > /dev/null 2>&1                     #统计第一步，记录经纪人基础数据（通过）
+*/1 2-9 * * * /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1                #统计第二步，记录经纪人统计数据
+*/1 2-9 * * * sleep 1; /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+*/1 2-9 * * * sleep 2; /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+*/1 2-9 * * * sleep 3; /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+*/1 2-9 * * * slepp 4; /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+*/5 8,9 * * * /var/www/fkt/job/mls_stat_job/broker_operate_stat_check.sh > /dev/null 2>&1
+1 10 * * * /var/www/fkt/job/mls_stat_job/broker_operate_stat_3.sh > /dev/null 2>&1
+*/1 14,15 * * * /var/www/fkt/job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+*/1 14,15 * * * sleep 2; /job/mls_stat_job/broker_operate_stat_2.sh > /dev/null 2>&1
+
+#######################mls_push_job###############################
+1 9,20 * * * /var/www/fkt/job/mls_push_job/new_add_collect.sh > /dev/null 2>&1    #新增采集房源早8点，晚8点推送新增的采集信息（无数据测试）
+*/5 * * * * /var/www/fkt/job/mls_push_job/new_add_coop_house.sh > /dev/null 2>&1  #合作房客源 服务器将经纪人所发布的房客源的所在区域与当前经纪人的区域进行匹配 每五分钟推送一次
+0 9 * * * /var/www/fkt/job/mls_push_job/event_remind.sh > /dev/null 2>&1           #提醒推送
+
+#######################check_my_task###################################
+* */1 * * * /var/www/fkt/job/mls_task_job/check_is_near_overdate.sh > /dev/null 2>&1            #检查任务是否离任务最迟完成时间15小时，系统提醒
+25 5 * * * /var/www/fkt/job/mls_task_job/check_is_over_date.sh > /dev/null 2>&1                 #检查任务是否逾期
+
+######################mls_cooperate_job###################################
+1 5 * * * /var/www/fkt/job/mls_cooperate_job/send_accepet_message_to_broker_a.sh > /dev/null 2>&1                #合作流程-规定时间内仍然未接受合作，提醒（短信）甲方经纪人接受已申请的合作
+5 5 * * * /var/www/fkt/job/mls_cooperate_job/send_confirm_commission_message_to_broker_b.sh > /dev/null 2>&1     #合作流程-规定时间内仍然未确认佣金分配，提醒乙方经纪人确认佣金分配
+10 5 * * * /var/www/fkt/job/mls_cooperate_job/update_cooperate_to_failed_unaccepet.sh > /dev/null 2>&1           #合作流程提-把规定时间内仍未接受的合作更改为合作失败状态，并发送站内信通知
+15 5 * * * /var/www/fkt/job/mls_cooperate_job/update_cooperate_to_failed_uncofirm.sh > /dev/null 2>&1            #合作流程-规定时间内仍然未确认佣金分配，更改合作状态为合作失败
+20 5 * * * /var/www/fkt/job/mls_cooperate_job/update_cooperate_to_overdue_unsub.sh > /dev/null 2>&1              #合作流程-合作成功状态后，规定时间内没有提交合作结果，则更改合作为逾期失败状态
+1 */1 * * * /var/www/fkt/job/curl_broker_info.sh > /dev/null 2>&1
+
+######################mls_cityprice_job###################################
+* * 1 * * /var/www/fkt/job/mls_cityprice_job/cityprice.sh > /dev/null 2>&1     # 房价走势图
+
+######################mls_monitor#########################################
+#1 9-20 * * * /var/www/fkt/job/mls_monitor/collect_monitor.sh > /dev/null 2>&1
+
+######################public turn private house#########################################
+1 2 * * * /var/www/fkt/job/mls_pubic_turn_private/sell_house.sh > /dev/null 2>&1            #根据基本设置，房客源变更性质（私-》公）
+5 2 * * * /var/www/fkt/job/mls_pubic_turn_private/rent_house.sh > /dev/null 2>&1            #根据基本设置，房源变更是否是公共数据（否-》是）
+10 2 * * * /var/www/fkt/job/mls_pubic_turn_private/buy_customer.sh > /dev/null 2>&1         #根据基本设置，房客源变更性质（私-》公）
+15 2 * * * /var/www/fkt/job/mls_pubic_turn_private/rent_customer.sh > /dev/null 2>&1        #根据基本设置，房客源变更性质（私-》公）
+
+######################mls_group_refresh#########################################
+#*/1 * * * * /var/www/fkt/job/mls_group_refresh/group_refresh.sh > /dev/null 2>&1                           #预约刷新 定时任务（执行失败，站点基础模块不存在）
+
+###################var/www/fkt/###cooperate_friends_apply#########################################
+1 3 * * * /var/www/fkt/job/cooperate_friends_apply/cooperate_friends_apply.sh > /dev/null 2>&1               #朋友圈申请时限72小时，超过判定过期
+
+######################data_public_change#########################################
+10 1 * * * /var/www/fkt/job/mls_data_public_job/data_public_change.sh > /dev/null 2>&1                       #根据基本设置，房源变更是否是公共数据（否-》是）
+10 2 * * * /var/www/fkt/job/mls_task_job/agency_month_recharge.sh > /dev/null 2>&1    #门店虚拟号码月租费到期续费和使用号码减少
+2 0 * * * /var/www/fkt/job/mls_task_job/agency_day_statistics.sh > /dev/null 2>&1    #门店虚拟号码日报表
+
+######################api库里每日定时统计经纪人的有效房源相关数据#########################################
+20 0 * * * /var/www/fkt/job/api_job/broker_static.sh > /dev/null 2>&1
+
+######################问安定时任务入口#########################################
+* * * * * /usr/local/php716/bin/php /var/www/wenan/public/index.php /addons/crontab/autotask/index >> /var/www/wenan/runtime/log/crontab.`date +\%Y-\%m-\%d`.log 2>&1
