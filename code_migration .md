@@ -47,6 +47,12 @@
 user mlsprd
 password MlsO607!23Sql
 跳板机 114.55.244.155 admin  r6#K21WJ!K
+
+###linux主机链接
+跳板机 114.55.244.155：2222
+user:guoqingbo
+password:运维保留密码
+跳板机 114.55.244.155 admin  r6#K21WJ!K
  
 ##短信接口
 - 接口： http://118.178.230.141:8888/mc-receiver-web/message/sendsms  
